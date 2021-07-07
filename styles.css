@@ -1,17 +1,32 @@
+body{
+    background-size: cover;
+    background-position-y: top;
+}
+
 .header {
   display: flex;
-  border: 10px solid 5px #fbff00;
+  justify-content: center;
+  border: 10px solid #fbff00;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #42526E;
 }
 
 
 .headerelement {
-  border: 2px solid 5px #fbff00;
+  border: 1px solid #ff2600;
+  justify-content: center;
 }
 
 .headerelement1 {
-  background-color: blue;
+  display: flex;
+
+  background-color: rgb(66, 66, 196);
 }
 
 .headerelement2 {
-  background-color: chartreuse;
+  background-color: rgb(128, 255, 0);
 }
