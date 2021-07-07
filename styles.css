@@ -1,4 +1,4 @@
-body{
+body {
   height: fit-content;
   background-image: url(file:///C:/Users/Juan/Documents/GitHub/Portfolio/Images/background.png);
   background-size: cover;
@@ -12,13 +12,13 @@ body{
   font-weight: bold;
   font-size: 20px;
   text-align: center;
-  color: #42526E;
+  color: #42526e;
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.headline{
+.headline {
   text-align: center;
   font-family: sans-serif;
   font-style: normal;
@@ -30,13 +30,21 @@ body{
 .pheadline {
   font-family: sans-serif;
   font-size: 16px;
-  font-weight:bold;
+  font-weight: bold;
   color: #13397c;
-  margin:0px 15px 0px 15px;
+  margin:1px 15px 1px 15px;
 }
 
-.mediaimgs{
+.mediaimgs {
   display: flex;
   justify-content: space-between;
-  margin: 50px 80px 0px 80px;
+  margin: 50px 80px 1px 80px;
+}
+
+#p1 {
+  color: #172B4D;
+}
+
+#p2 {
+  color:#36b37e
 }
