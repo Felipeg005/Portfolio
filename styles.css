@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  border: 10px solid 5px #fbff00;
+}
+
+
+.headerelement {
+  border: 2px solid 5px #fbff00;
+}
+
+.headerelement1 {
+  background-color: blue;
+}
+
+.headerelement2 {
+  background-color: chartreuse;
+}
