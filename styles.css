@@ -166,7 +166,9 @@ ul {
   background-position-y: top;
 }
 
-.aboutmetitle,.aboutmep,.aboutmebutton {
+.aboutmetitle,
+.aboutmep,
+.aboutmebutton {
   grid-column-start: 2;
   text-align: center;
 }
