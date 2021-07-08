@@ -117,6 +117,13 @@ ul {
   color: white;
 }
 
+.aboutmetitle,
+.aboutmep,
+.aboutmebutton {
+  grid-column-start: 2;
+  text-align: center;
+}
+
 .cardbutton:hover,
 .aboutmebutton:hover {
   margin: 1px 95px 25px 95px;
@@ -129,7 +136,7 @@ ul {
   border: none;
   border-radius: 4px;
   color: white;
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 .cardbutton:active,
@@ -193,13 +200,6 @@ ul {
   background-image: url(./Images/Aboutme-Background.jpg);
   background-size: cover;
   background-position-y: top;
-}
-
-.aboutmetitle,
-.aboutmep,
-.aboutmebutton {
-  grid-column-start: 2;
-  text-align: center;
 }
 
 .aboutmetitle {
