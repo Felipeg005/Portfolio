@@ -117,6 +117,35 @@ ul {
   color: white;
 }
 
+.cardbutton:hover,
+.aboutmebutton:hover {
+  margin: 1px 95px 25px 95px;
+  padding: 15px 5px 15px 5px;
+  background: #36b37f;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.cardbutton:active,
+.aboutmebutton:active {
+  margin: 1px 95px 25px 95px;
+  padding: 15px 5px 15px 5px;
+  background: #008552;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
 .cardtitle {
   z-index: 1;
   background: white;
