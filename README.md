@@ -29,6 +29,8 @@ To get a local copy up and running follow these simple example steps
 
 ## Authors
 
+**Juan Felipe Gomez Tobon**
+
 👤 **Author**
 
 - GitHub: [@githubhandle](https://github.com/Felipeg005/)

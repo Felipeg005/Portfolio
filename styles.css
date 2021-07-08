@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://felipeg005.github.io/Portfolio/Images/background.png);
+  background-image: url(./Portfolio/Images/background.png);
   background-size: cover;
 }
 
@@ -40,10 +40,10 @@ body {
   margin: 50px 80px 1px 80px;
 }
 
-#p1 {
+.p1 {
   color: #172b4d;
 }
 
-#p2 {
+.p2 {
   color: #36b37e;
 }
