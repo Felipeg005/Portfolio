@@ -103,7 +103,7 @@ ul {
   border-color: rgba(0, 0, 0, 0);
 }
 
-.cardbutton, 
+.cardbutton,
 .aboutmebutton {
   margin: 1px 95px 25px 95px;
   padding: 15px 5px 15px 5px;
@@ -140,9 +140,9 @@ ul {
   padding: 1px;
 }
 
-.prg1, 
-.prg2, 
-.prg3, 
+.prg1,
+.prg2,
+.prg3,
 .prg4 {
   font-family: sans-serif;
   font-size: 12px;
@@ -166,8 +166,8 @@ ul {
   background-position-y: top;
 }
 
-.aboutmetitle, 
-.aboutmep, 
+.aboutmetitle,
+.aboutmep,
 .aboutmebutton {
   grid-column-start: 2;
   text-align: center;
@@ -220,19 +220,19 @@ ul {
   justify-content: center;
 }
 
-.lang1, 
-.lang2, 
-.lang3, 
-.lang4, 
-.fram1, 
-.fram2, 
-.fram3, 
-.fram4, 
+.lang1,
+.lang2,
+.lang3,
+.lang4,
+.fram1,
+.fram2,
+.fram3,
+.fram4,
 .fram5,
-.skill1, 
-.skill2, 
-.skill3, 
-.skill4, 
+.skill1,
+.skill2,
+.skill3,
+.skill4,
 .skill5 {
   font-family: sans-serif;
   font-size: 12px;
