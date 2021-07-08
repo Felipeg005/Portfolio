@@ -7,7 +7,7 @@ body {
   background-position: top;
 }
 
-img{
+img {
   border: none;
 }
 
@@ -69,7 +69,7 @@ ul {
   margin-top: 80px;
 }
 
-.cards{
+.cards {
   grid-column-start: 2;
   display: flex;
   flex-direction: column;
@@ -85,7 +85,7 @@ ul {
   border: none;
   margin: 1px 150px 1px 150px;
 }
-.workstitle{
+.workstitle {
   grid-column-start: 2;
   text-align: center;
   font-family: sans-serif;
@@ -94,7 +94,7 @@ ul {
   color: #172b4d;
 }
 
-.cardimg{
+.cardimg {
   background: #ebf0ee;
   border-radius: 10px;
   margin-bottom: -35px;
@@ -110,12 +110,12 @@ ul {
   font-size: 17px;
   font-weight: 600;
   line-height: 24px;
-  border:none;
+  border: none;
   border-radius: 4px;
   color: white;
 }
 
-.cardtitle{
+.cardtitle {
   z-index: 1;
   background: white;
   border-top: 1px solid #ebf0ee;
@@ -130,7 +130,7 @@ ul {
   line-height: 32px;
 }
 
-.proglist{
+.proglist {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -166,7 +166,7 @@ ul {
   text-align: center;
 }
 
-.aboutmetitle{
+.aboutmetitle {
   font-family: sans-serif;
   font-size: 40px;
   font-weight: bolder;
@@ -174,7 +174,7 @@ ul {
   margin: 1px;
 }
 
-.aboutmep{
+.aboutmep {
   font-family: sans-serif;
   font-size: 16px;
   font-weight: bold;
@@ -184,7 +184,7 @@ ul {
   margin-bottom: 24px;
 }
 
-.aboutme-1{
+.aboutme-1 {
   display: grid;
   grid-template-columns: 5% 90% 5%;
   margin-top: 50px;
@@ -204,7 +204,7 @@ ul {
   border: 1px solid #c1c7d0
 }
 
-.boxlist{
+.boxlist {
   padding: 1px;
   margin: 1px;
   display: flex;
@@ -235,7 +235,7 @@ ul {
   line-height: 32px;
 }
 
-.iconabout{
+.iconabout {
   padding: 1px;
   margin-top: 15px;
 }
