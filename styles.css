@@ -1,5 +1,4 @@
 body {
-  height: fit-content;
   background-image: url(file:///C:/Users/Juan/Documents/GitHub/Portfolio/Images/background.png);
   background-size: cover;
 }
@@ -23,7 +22,7 @@ body {
   font-family: sans-serif;
   font-style: normal;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 19px;
   margin-top: 100px;
 }
 
@@ -32,7 +31,7 @@ body {
   font-size: 16px;
   font-weight: bold;
   color: #13397c;
-  margin:1px 15px 1px 15px;
+  margin: 1px 15px 1px 15px;
 }
 
 .mediaimgs {
@@ -42,9 +41,9 @@ body {
 }
 
 #p1 {
-  color: #172B4D;
+  color: #172B4d;
 }
 
 #p2 {
-  color:#36b37e
+  color: #36b37e;
 }
