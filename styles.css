@@ -79,6 +79,12 @@ ul {
   margin-top: 25px;
 }
 
+.downbutton {
+  grid-column-start: 2;
+  background: none;
+  border: none;
+  margin: 1px 150px 1px 150px;
+}
 .workstitle{
   grid-column-start: 2;
   text-align: center;
