@@ -161,7 +161,7 @@ ul {
   background-position-y: top;
 }
 
-.aboutmetitle, .aboutmep, .aboutmebutton{
+.aboutmetitle, .aboutmep, .aboutmebutton {
   grid-column-start: 2;
   text-align: center;
 }
@@ -182,4 +182,60 @@ ul {
   line-height: 32px;
   margin-top: 24px;
   margin-bottom: 24px;
+}
+
+.aboutme-1{
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  margin-top: 50px;
+}
+
+.boxaboutme {
+  grid-column-start: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 1px 15px 1px;
+  margin: 35px 1px 1px 1px;
+  height: 320px;
+  background: #ebf0ee;
+  border-radius: 8px;
+  border: 1px solid #c1c7d0
+}
+
+.boxlist{
+  padding: 1px;
+  margin: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.lang1, .lang2, .lang3, .lang4, .fram1, .fram2, .fram3, .fram4, .fram5,
+.skill1, .skill2, .skill3, .skill4, .skill5 {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #36b37e;
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 10px 1px 10px;
+}
+
+.aboutmetitles {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px; 
+  margin-bottom: 16px;
+  color: #344563;
+  line-height: 32px;
+}
+
+.iconabout{
+  padding: 1px;
+  margin-top: 15px;
 }
