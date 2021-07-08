@@ -27,11 +27,9 @@ To get a local copy up and running follow these simple example steps
 - Open Html.index file with your browser
 
 
-## Authors
+👤 **Author**
 
 **Juan Felipe Gomez Tobon**
-
-👤 **Author**
 
 - GitHub: [@githubhandle](https://github.com/Felipeg005/)
 - Twitter: [@twitterhandle](https://twitter.com/JuanFGT05)
