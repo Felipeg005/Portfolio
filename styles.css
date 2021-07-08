@@ -1,6 +1,8 @@
 body {
+  background: no-repeat;
   background-image: url(./Images/background.png);
-  background-size: cover;
+  background-size: contain;
+  background-position: top;
 }
 
 ul {
