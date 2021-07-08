@@ -46,7 +46,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
-
-# Portfolio Juan Felipe Gomez Tobon
-Software Developer: Proficient with HTML, CSS, Javascript, Ruby on Rails programming languages.
