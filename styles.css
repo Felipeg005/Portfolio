@@ -53,3 +53,29 @@ ul {
 .p2 {
   color: #36b37e;
 }
+
+.works{
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  margin-top: 80px;
+}
+
+.cards{
+  grid-column-start: 2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.workstitle{
+  grid-column-start: 2;
+  text-align: center;
+}
+
+.proglist{
+  display: flex;
+  flex-direction: row;
+}
