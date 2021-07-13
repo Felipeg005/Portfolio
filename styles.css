@@ -468,4 +468,46 @@ ul {
   .mediaimg5 {
     margin: 1px 15px 1px 15px;
   }
+
+  .works {
+    display: grid;
+    grid-template-columns: 5% 25% 5% 25% 5% 25% 5% 5%;
+    grid-template-rows: repeat (3, 30%);
+  }
+
+  .workstitle {
+    margin-top: 300px;
+    grid-row-start: 2;
+    grid-column-start: 3;
+  }
+
+.card1 {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.card2 {
+  grid-column-start: 4;
+  grid-row-start: 3;
+}
+
+.card3 {
+  grid-column-start: 6;
+  grid-row-start: 3;
+}
+
+.card4 {
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+.card5 {
+  grid-column-start: 4;
+  grid-row-start: 4;
+}
+
+.card6 {
+  grid-column-start: 6;
+  grid-row-start: 4;
+}
 }
