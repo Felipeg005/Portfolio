@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 body {
   background: no-repeat;
@@ -175,7 +175,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 1px 1px1px 1px;
+  margin: 1px 1px 1px 1px;
   padding: 1px;
 }
 
@@ -292,7 +292,7 @@ ul {
 }
 
 .contact-me {
-  background-image: url('./Images/illustration-contact-form.png');
+  background-image: url("./Images/illustration-contact-form.png");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 750px;
@@ -375,7 +375,7 @@ ul {
 .placeholder {
   font-family: "Inter", sans-serif;
   border-radius: 5px;
-  border:2px solid #D0D9D4;
+  border: 2px solid #d0d9d4;
   width: 100%;
   padding: 10px 10px 10px 10px;
   margin: 5px 10px 15px -10px;
@@ -386,7 +386,7 @@ ul {
 .placeholder:hover {
   font-family: "Inter", sans-serif;
   border-radius: 5px;
-  border:2px solid #36b37faf;
+  border: 2px solid #36b37faf;
   width: 100%;
   font-size: 15px;
   outline: #36b37faf;
@@ -399,3 +399,4 @@ ul {
 .line {
   margin-top: 170px;
 }
+
