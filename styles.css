@@ -79,7 +79,7 @@ ul {
   text-align: center;
   border: 1px solid #ebf0ee;
   border-radius: 10px;
-  margin-top:1px;
+  margin-top: 20px;
 }
 
 .downbutton {
@@ -108,7 +108,7 @@ ul {
 
 .cardbutton,
 .aboutmebutton {
-  margin: 1px 95px1px 95px;
+  margin: 1px 95px 20px 95px;
   padding: 15px 5px 15px 5px;
   background: #36b37f;
   font-family: "Inter", sans-serif;
@@ -128,9 +128,8 @@ ul {
 }
 
 .cardbutton:hover,
-.aboutmebutton:hover,
-.formbutton {
-  margin: 1px 95px1px 95px;
+.aboutmebutton:hover {
+  margin: 1px 95px 20px 95px;
   padding: 15px 5px 15px 5px;
   background: #36b37f;
   font-family: "Inter", sans-serif;
@@ -144,9 +143,8 @@ ul {
 }
 
 .cardbutton:active,
-.aboutmebutton:active,
-.formbutton {
-  margin: 1px 95px1px 95px;
+.aboutmebutton:active {
+  margin: 1px 95px 20px 95px;
   padding: 15px 5px 15px 5px;
   background: #008552;
   font-family: "Inter", sans-serif;
@@ -191,7 +189,7 @@ ul {
   color: #3a4a42;
   background: #ebf0ee;
   border-radius: 5px;
-  padding: 10px;
+  padding: 12px;
   margin: 1px 10px 1px 10px;
 }
 
@@ -296,7 +294,8 @@ ul {
 .contact-me {
   background-image: url('./Images/illustration-contact-form.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position-x: right;
+  background-position-y: 750px;
   margin-right: -10px;
   display: grid;
   grid-template-columns: 5% 90% 5%;
@@ -309,6 +308,7 @@ ul {
   font-size: 40px;
   color: #172b4d;
   grid-column-start: 2;
+  margin-top: 80px;
 }
 
 .form {
@@ -345,16 +345,57 @@ ul {
   color: white;
 }
 
+.formbutton:hover {
+  margin: 15px 75px -15px 75px;
+  padding: 8px 10px 8px 10px;
+  background: #36b37f;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 24px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.formbutton:active {
+  margin: 15px 75px -15px 75px;
+  padding: 8px 10px 8px 10px;
+  background: #008552;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 24px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
 .placeholder {
   font-family: "Inter", sans-serif;
   border-radius: 5px;
-  border:1px solid #D0D9D4;
+  border:2px solid #D0D9D4;
   width: 100%;
   padding: 10px 10px 10px 10px;
   margin: 5px 10px 15px -10px;
   font-size: 15px;
 }
 
+.placeholder:focus,
+.placeholder:hover {
+  font-family: "Inter", sans-serif;
+  border-radius: 5px;
+  border:2px solid #36b37faf;
+  width: 100%;
+  font-size: 15px;
+  outline: #36b37faf;
+}
+
 .msg {
   padding-bottom: 70px;
+}
+
+.line {
+  margin-top: 170px;
 }
