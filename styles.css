@@ -399,3 +399,21 @@ ul {
 .line {
   margin-top: 170px;
 }
+
+.header-desktop {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+@media (max-width:768px) {
+  .header-desktop {
+    display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .headerelement {
+    display: none;
+  }
+}
