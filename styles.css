@@ -89,7 +89,7 @@ ul {
   grid-column-start: 2;
   justify-content: center;
   background: none;
-  border: none;;
+  border: none;
 }
 
 .workstitle {
@@ -416,7 +416,7 @@ ul {
   margin: 25px 15px 1px 25px;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .header-desktop {
     display: none;
   }
@@ -427,7 +427,7 @@ ul {
   }
 }
 
-@media (min-width:769px) {
+@media (min-width: 769px) {
   .headerelement {
     display: none;
   }
@@ -438,8 +438,8 @@ ul {
   }
 
   .pd1,
-  .pd2{
-    font-size:48px;
+  .pd2 {
+    font-size: 48px;
   }
 
   .pheadline {
@@ -487,103 +487,103 @@ ul {
     grid-column-start: 4;
   }
 
-.card1 {
-  grid-column-start: 2;
-  grid-row-start: 3;
-}
+  .card1 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+  }
 
-.card2 {
-  grid-column-start: 4;
-  grid-row-start: 3;
-}
+  .card2 {
+    grid-column-start: 4;
+    grid-row-start: 3;
+  }
 
-.card3 {
-  grid-column-start: 6;
-  grid-row-start: 3;
-}
+  .card3 {
+    grid-column-start: 6;
+    grid-row-start: 3;
+  }
 
-.card4 {
-  grid-column-start: 2;
-  grid-row-start: 4;
-}
+  .card4 {
+    grid-column-start: 2;
+    grid-row-start: 4;
+  }
 
-.card5 {
-  grid-column-start: 4;
-  grid-row-start: 4;
-}
+  .card5 {
+    grid-column-start: 4;
+    grid-row-start: 4;
+  }
 
-.card6 {
-  grid-column-start: 6;
-  grid-row-start: 4;
-}
+  .card6 {
+    grid-column-start: 6;
+    grid-row-start: 4;
+  }
 
-.aboutme {
-  display: grid;
-  grid-template-columns: 20% 60% 20%;
-  background-image: url(./Images/illustration\ about\ me\ desktop\ Background.jpg);
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  padding-bottom: 20px;
-}
+  .aboutme {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    background-image: url(./Images/illustration\ about\ me\ desktop\ Background.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+  }
 
-.aboutmebutton,
-.aboutmebutton:hover,
-.aboutmebutton:active {
-  margin: 1px 270px;
-}
+  .aboutmebutton,
+  .aboutmebutton:hover,
+  .aboutmebutton:active {
+    margin: 1px 270px;
+  }
 
-.aboutme-1{
-  display: grid;
-  grid-template-columns: 9.5% 25% 2% 25% 2% 25% 2% 9.5%;
-}
+  .aboutme-1 {
+    display: grid;
+    grid-template-columns: 9.5% 25% 2% 25% 2% 25% 2% 9.5%;
+  }
 
-.boxaboutme {
-  justify-content: initial;
-}
+  .boxaboutme {
+    justify-content: initial;
+  }
 
-.boxaboutme1{
-  grid-column-start: 2;
-}
+  .boxaboutme1 {
+    grid-column-start: 2;
+  }
 
-.boxaboutme2 {
-  grid-column-start: 4;
-}
+  .boxaboutme2 {
+    grid-column-start: 4;
+  }
 
-.boxaboutme3{
-  grid-column-start: 6;
-}
+  .boxaboutme3 {
+    grid-column-start: 6;
+  }
 
-.contact-me {
-  display: grid;
-  grid-template-columns: 5% 45% 45% 5%;
-  background-image: url(./Images/illustration-form-desktop-background.jpg);
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
+  .contact-me {
+    display: grid;
+    grid-template-columns: 5% 45% 45% 5%;
+    background-image: url(./Images/illustration-form-desktop-background.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
 
-.form {
-  grid-column-start: 3;
-  padding-left: 20px;
-  padding-top: 20px;
-}
+  .form {
+    grid-column-start: 3;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
 
-.formbutton,
-.formbutton:hover,
-.formbutton:active {
-  display: block;
-  margin: 1px;
-}
+  .formbutton,
+  .formbutton:hover,
+  .formbutton:active {
+    display: block;
+    margin: 1px;
+  }
 
-.line,
-.email {
-  display: none;
-}
+  .line,
+  .email {
+    display: none;
+  }
 
-.mediaimgs1 {
-  grid-column-start: 2;
-  grid-column-end: 4;
-  margin-top: 300px;
-}
+  .mediaimgs1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-top: 300px;
+  }
 }
