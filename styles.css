@@ -49,7 +49,8 @@ ul {
   margin: 1px 15px 1px 15px;
 }
 
-.mediaimgs {
+.mediaimgs,
+.mediaimgs1 {
   display: flex;
   justify-content: space-between;
   margin: 50px 95px 1px 95px;
@@ -198,10 +199,12 @@ ul {
 .aboutme {
   display: grid;
   grid-template-columns: 5% 90% 5%;
+  margin-top: 50px;
   padding-top: 80px;
   background-image: url(./Images/Aboutme-Background.jpg);
   background-size: cover;
   background-position-y: top;
+  padding-bottom: 80px;
 }
 
 .aboutmetitle {
@@ -319,6 +322,7 @@ ul {
 }
 
 .mediaimgs,
+.mediaimgs1,
 .line,
 .email {
   grid-column-start: 2;
@@ -517,6 +521,10 @@ ul {
   display: grid;
   grid-template-columns: 20% 60% 20%;
   background-image: url(./Images/illustration\ about\ me\ desktop\ Background.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
 }
 
 .aboutmebutton,
@@ -527,7 +535,7 @@ ul {
 
 .aboutme-1{
   display: grid;
-  grid-template-columns: 9.5% 25% 2% 25% 2% 25% 2% 9.5%;;
+  grid-template-columns: 9.5% 25% 2% 25% 2% 25% 2% 9.5%;
 }
 
 .boxaboutme {
@@ -550,6 +558,9 @@ ul {
   display: grid;
   grid-template-columns: 5% 45% 45% 5%;
   background-image: url(./Images/illustration-form-desktop-background.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .form {
@@ -558,7 +569,9 @@ ul {
   padding-top: 20px;
 }
 
-.formbutton {
+.formbutton,
+.formbutton:hover,
+.formbutton:active {
   display: block;
   margin: 1px;
 }
