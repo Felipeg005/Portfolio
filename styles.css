@@ -4,6 +4,7 @@ body {
   background: no-repeat;
   background-image: url(./Images/header-illsutration-mobile@2x.png);
   background-size: contain;
+  background-color: white;
   max-width: 100%;
   height: auto;
   background-position: top;
@@ -466,7 +467,6 @@ ul {
     background: no-repeat;
     background-image: url(./Images/Header-llustration-desktop@2x.png);
     background-size: contain;
-    background-color: white;
     height: auto;
     background-position: top;
     font-family: "Inter", sans-serif;
