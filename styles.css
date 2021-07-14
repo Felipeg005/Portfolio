@@ -478,7 +478,6 @@ ul {
   .works {
     display: grid;
     grid-template-columns: 9.5% 25% 2% 25% 2% 25% 2% 9.5%;
-    grid-template-rows: repeat (3, 30%);
   }
 
   .workstitle {
