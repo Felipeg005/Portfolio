@@ -86,9 +86,9 @@ ul {
 
 .downbutton {
   grid-column-start: 2;
+  justify-content: center;
   background: none;
-  border: none;
-  margin: 1px 150px 1px 150px;
+  border: none;;
 }
 
 .workstitle {
@@ -110,7 +110,7 @@ ul {
 
 .cardbutton,
 .aboutmebutton {
-  margin: 1px 95px 20px 95px;
+  margin: 20px 95px 20px 95px;
   padding: 15px 5px 15px 5px;
   background: #36b37f;
   font-family: "Inter", sans-serif;
@@ -131,7 +131,7 @@ ul {
 
 .cardbutton:hover,
 .aboutmebutton:hover {
-  margin: 1px 95px 20px 95px;
+  margin: 20px 95px 20px 95px;
   padding: 15px 5px 15px 5px;
   background: #36b37f;
   font-family: "Inter", sans-serif;
@@ -146,7 +146,7 @@ ul {
 
 .cardbutton:active,
 .aboutmebutton:active {
-  margin: 1px 95px 20px 95px;
+  margin: 20px 95px 20px 95px;
   padding: 15px 5px 15px 5px;
   background: #008552;
   font-family: "Inter", sans-serif;
@@ -176,7 +176,7 @@ ul {
 .proglist {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   margin: 1px 1px 1px 1px;
   padding: 1px;
 }
@@ -191,16 +191,13 @@ ul {
   color: #3a4a42;
   background: #ebf0ee;
   border-radius: 5px;
-  padding: 12px;
-  margin: 1px 10px 1px 10px;
+  padding: 10px 10px 10px 10px;
+  margin: 1px 5px 1px 5px;
 }
 
 .aboutme {
   display: grid;
   grid-template-columns: 5% 90% 5%;
-  margin-top: 1px;
-  margin-left: -8px;
-  margin-right: -8px;
   padding-top: 80px;
   background-image: url(./Images/Aboutme-Background.jpg);
   background-size: cover;
@@ -456,7 +453,8 @@ ul {
     font-family: "Inter", sans-serif;
   }
 
-  .mediaimgs {
+  .mediaimgs,
+  .mediaimgs1 {
     display: flex;
     justify-content: center;
   }
@@ -469,16 +467,20 @@ ul {
     margin: 1px 15px 1px 15px;
   }
 
+  .downbutton {
+    grid-column-start: 4;
+  }
+
   .works {
     display: grid;
-    grid-template-columns: 5% 25% 5% 25% 5% 25% 5% 5%;
+    grid-template-columns: 9.5% 25% 2% 25% 2% 25% 2% 9.5%;
     grid-template-rows: repeat (3, 30%);
   }
 
   .workstitle {
     margin-top: 300px;
     grid-row-start: 2;
-    grid-column-start: 3;
+    grid-column-start: 4;
   }
 
 .card1 {
@@ -509,5 +511,66 @@ ul {
 .card6 {
   grid-column-start: 6;
   grid-row-start: 4;
+}
+
+.aboutme {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  background-image: url(./Images/illustration\ about\ me\ desktop\ Background.jpg);
+}
+
+.aboutmebutton,
+.aboutmebutton:hover,
+.aboutmebutton:active {
+  margin: 1px 270px;
+}
+
+.aboutme-1{
+  display: grid;
+  grid-template-columns: 9.5% 25% 2% 25% 2% 25% 2% 9.5%;;
+}
+
+.boxaboutme {
+  justify-content: initial;
+}
+
+.boxaboutme1{
+  grid-column-start: 2;
+}
+
+.boxaboutme2 {
+  grid-column-start: 4;
+}
+
+.boxaboutme3{
+  grid-column-start: 6;
+}
+
+.contact-me {
+  display: grid;
+  grid-template-columns: 5% 45% 45% 5%;
+  background-image: url(./Images/illustration-form-desktop-background.jpg);
+}
+
+.form {
+  grid-column-start: 3;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.formbutton {
+  display: block;
+  margin: 1px;
+}
+
+.line,
+.email {
+  display: none;
+}
+
+.mediaimgs1 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  margin-top: 300px;
 }
 }
