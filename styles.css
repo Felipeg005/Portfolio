@@ -52,9 +52,19 @@ ul {
 .mediaimgs,
 .mediaimgs1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 50px 95px 1px 95px;
   padding: 1px;
+}
+
+.mediaimg1,
+.mediaimg2,
+.mediaimg3,
+.mediaimg4,
+.mediaimg5 {
+  height: 20px;
+  width: 22px;
+  margin: 1px 10px 1px 10px;
 }
 
 .p1,
@@ -401,6 +411,10 @@ ul {
 
 .line {
   margin-top: 170px;
+}
+
+.footer {
+  text-align: center;
 }
 
 .header-desktop {
