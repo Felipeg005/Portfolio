@@ -19,6 +19,14 @@ ul {
   list-style-type: none;
 }
 
+.headerelement2 {
+  display: flex;
+  image-rendering: optimizeQuality;
+  height: 35px;
+  width: 35px;
+  margin-top: -5px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -118,6 +126,8 @@ ul {
   margin-bottom: -35px;
   z-index: 0;
   border-color: rgba(0, 0, 0, 0);
+  height:250px;
+  width:100%;
 }
 
 .cardbutton,
