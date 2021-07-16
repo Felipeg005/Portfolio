@@ -152,6 +152,7 @@ ul {
   border: none;
   border-radius: 4px;
   color: white;
+  transition: box-shadow 0.5s;
 }
 
 .aboutmetitle,
@@ -377,6 +378,7 @@ ul {
   border: none;
   border-radius: 4px;
   color: white;
+  transition: box-shadow 0.5s;
 }
 
 .formbutton:hover {
