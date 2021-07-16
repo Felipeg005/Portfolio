@@ -74,6 +74,16 @@ ul {
   height: 20px;
   width: 22px;
   margin: 1px 10px 1px 10px;
+  transition: transform 0.2s, margin 0.2s;
+}
+
+.mediaimg1:hover,
+.mediaimg2:hover,
+.mediaimg3:hover,
+.mediaimg4:hover,
+.mediaimg5:hover {
+  transform: scale(1.3);
+  margin: 1px 15px 1px 15px;
 }
 
 .p1,
@@ -498,15 +508,6 @@ ul {
   .mediaimgs1 {
     display: flex;
     justify-content: center;
-  }
-
-  .mediaimg1:hover,
-  .mediaimg2:hover,
-  .mediaimg3:hover,
-  .mediaimg4:hover,
-  .mediaimg5:hover {
-    transform: scale(1.3);
-    margin: 1px 15px 1px 15px;
   }
 
   .downbuttonbox {
