@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
   background: no-repeat;
@@ -8,7 +8,7 @@ body {
   max-width: 100%;
   height: auto;
   background-position: top;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 img {
@@ -30,7 +30,7 @@ ul {
 .header {
   display: flex;
   justify-content: space-between;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -43,7 +43,7 @@ ul {
 
 .headline {
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bolder;
   font-size: 19px;
@@ -51,7 +51,7 @@ ul {
 }
 
 .pheadline {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: bold;
   color: #13397c;
@@ -74,6 +74,16 @@ ul {
   height: 20px;
   width: 22px;
   margin: 1px 10px 1px 10px;
+  transition: transform 0.2s, margin 0.2s;
+}
+
+.mediaimg1:hover,
+.mediaimg2:hover,
+.mediaimg3:hover,
+.mediaimg4:hover,
+.mediaimg5:hover {
+  transform: scale(1.3);
+  margin: 1px 15px 1px 15px;
 }
 
 .p1,
@@ -104,17 +114,27 @@ ul {
   margin-top: 20px;
 }
 
-.downbutton {
+.downbuttonbox {
   grid-column-start: 2;
   justify-content: center;
   background: none;
   border: none;
 }
 
+.downbuttonimg {
+  height: 50px;
+  width: 50px;
+  transition: transform 0.4s;
+}
+
+.downbuttonimg:hover {
+  transform: scale(1.1);
+}
+
 .workstitle {
   grid-column-start: 2;
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 40px;
   font-weight: bolder;
   color: #172b4d;
@@ -135,13 +155,14 @@ ul {
   margin: 20px 95px 20px 95px;
   padding: 15px 5px 15px 5px;
   background: #36b37f;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 600;
   line-height: 24px;
   border: none;
   border-radius: 4px;
   color: white;
+  transition: box-shadow 0.5s;
 }
 
 .aboutmetitle,
@@ -156,7 +177,7 @@ ul {
   margin: 20px 95px 20px 95px;
   padding: 15px 5px 15px 5px;
   background: #36b37f;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 600;
   line-height: 24px;
@@ -171,7 +192,7 @@ ul {
   margin: 20px 95px 20px 95px;
   padding: 15px 5px 15px 5px;
   background: #008552;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 600;
   line-height: 24px;
@@ -185,7 +206,7 @@ ul {
   background: white;
   border-top: 1px solid #ebf0ee;
   border-radius: 10px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -207,7 +228,7 @@ ul {
 .prg2,
 .prg3,
 .prg4 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 12px;
   font-weight: 600;
   color: #3a4a42;
@@ -229,7 +250,7 @@ ul {
 }
 
 .aboutmetitle {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 40px;
   font-weight: bolder;
   color: #172b4d;
@@ -237,7 +258,7 @@ ul {
 }
 
 .aboutmep {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: bold;
   color: #126e;
@@ -289,7 +310,7 @@ ul {
 .skill3,
 .skill4,
 .skill5 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 12px;
   font-weight: 600;
   color: #36b37e;
@@ -300,7 +321,7 @@ ul {
 }
 
 .aboutmetitles {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -315,7 +336,7 @@ ul {
 }
 
 .contact-me {
-  background-image: url("./Images/illustration-contact-form.png");
+  background-image: url('./Images/illustration-contact-form.png');
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 750px;
@@ -327,7 +348,7 @@ ul {
 }
 
 .contact-me-title {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 40px;
   color: #172b4d;
   grid-column-start: 2;
@@ -350,7 +371,7 @@ ul {
 }
 
 .email {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   color: #126e;
   font-weight: lighter;
@@ -360,20 +381,21 @@ ul {
   margin: 15px 75px -15px 75px;
   padding: 8px 10px 8px 10px;
   background: #36b37f;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: lighter;
   line-height: 24px;
   border: none;
   border-radius: 4px;
   color: white;
+  transition: box-shadow 0.5s;
 }
 
 .formbutton:hover {
   margin: 15px 75px -15px 75px;
   padding: 8px 10px 8px 10px;
   background: #36b37f;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: lighter;
   line-height: 24px;
@@ -387,7 +409,7 @@ ul {
   margin: 15px 75px -15px 75px;
   padding: 8px 10px 8px 10px;
   background: #008552;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: lighter;
   line-height: 24px;
@@ -397,7 +419,7 @@ ul {
 }
 
 .placeholder {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   border-radius: 5px;
   border: 2px solid #d0d9d4;
   width: 100%;
@@ -408,7 +430,7 @@ ul {
 
 .placeholder:focus,
 .placeholder:hover {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   border-radius: 5px;
   border: 2px solid #36b37faf;
   width: 100%;
@@ -479,7 +501,7 @@ ul {
     background-size: contain;
     height: auto;
     background-position: top;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
   }
 
   .mediaimgs,
@@ -488,15 +510,7 @@ ul {
     justify-content: center;
   }
 
-  .mediaimg1,
-  .mediaimg2,
-  .mediaimg3,
-  .mediaimg4,
-  .mediaimg5 {
-    margin: 1px 15px 1px 15px;
-  }
-
-  .downbutton {
+  .downbuttonbox {
     grid-column-start: 4;
   }
 
