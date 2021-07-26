@@ -1,2 +1,3 @@
 # Ignoring lighthouse report folder
 .lighthouseci/
+node_modules/
