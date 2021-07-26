@@ -150,6 +150,10 @@ ul {
   width: 100%;
 }
 
+.cardimgs {
+  width: 100%;
+}
+
 .cardbutton,
 .aboutmebutton {
   margin: 20px 95px 20px 95px;
@@ -502,6 +506,12 @@ ul {
     height: auto;
     background-position: top;
     font-family: 'Inter', sans-serif;
+  }
+
+  .header-desktop1,
+  .header-desktop2,
+  .header-desktop3{
+    cursor: pointer;
   }
 
   .mediaimgs,
