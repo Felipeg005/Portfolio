@@ -1,199 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0GGDWZYGDE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){window.dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-0GGDWZYGDE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-0GGDWZYGDE');
-</script>
-    <meta charset="UTF-8">
+      gtag("config", "G-0GGDWZYGDE");
+    </script>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="headerelement headerelement1">Welcome</div>
-        <nav class="headerelement headerelement2"><img src="./Images/nav-menu1.png" alt="menu" /></nav>
-        <nav class="header-desktop">
-            <div class="header-desktop1">Portfolio</div>
-            <div class="header-desktop2">About</div>
-            <div class="header-desktop3">Contact</div>
-        </nav>
+      <div class="headerelement headerelement1">Welcome</div>
+      <nav class="headerelement headerelement2">
+        <div class="lines">
+          <div class="menuline line-1"></div>
+          <div class="menuline line-2"></div>
+          <div class="menuline line-3"></div>
+        </div>
+        <ul class="menuitems">
+          <li class="menuitem menuitem-1">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="menuitem menuitem-2">
+            <a href="#aboutme">Aboutme</a>
+          </li>
+          <li class="menuitem menuitem-3">
+            <a href="#contactme">Contact</a>
+          </li>
+        </ul>
+        <div class="navmenubottom"></div>
+      </nav>
+      <nav class="header-desktop">
+        <ul class="header-desktop">
+          <li class="header-desktop1"><a href="#portfolio">Portfolio</a></li>
+          <li class="header-desktop2"><a href="#aboutme">About</a></li>
+          <li class="header-desktop3"><a href="#contactme">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="headline">
-            <h1><span class="p1">Hey there. I’m Juan</span><br><span class="p2">I’m a software<br>developer</span></h1>
-            <h2><span class="pd1">Hey there. I’m Juan</span><br><span class="pd2">I’m a software developer</span></h2>
-            <p class="pheadline"> I can help you build a product , feature or website Look through some of my work and
-                experience! If you like what you see and have
-                a project you need coded, don’t hestiate to contact me.</p>
+      <div class="headline">
+        <h1>
+          <span class="p1">Hey there. I’m Juan</span><br /><span class="p2"
+            >I’m a software<br />developer</span
+          >
+        </h1>
+        <h2>
+          <span class="pd1">Hey there. I’m Juan</span><br /><span class="pd2"
+            >I’m a software developer</span
+          >
+        </h2>
+        <p class="pheadline">
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+      </div>
+      <ul class="mediaimgs">
+        <li>
+          <i
+            ><img class="mediaimg1" src="./Images/twitter.png" alt="My twitter"
+          /></i>
+        </li>
+        <li>
+          <i
+            ><img
+              class="mediaimg2"
+              src="./Images/linkedin.png"
+              alt="My linkedin"
+          /></i>
+        </li>
+        <li>
+          <i
+            ><img class="mediaimg3" src="./Images/medium.png" alt="My medium"
+          /></i>
+        </li>
+        <li>
+          <i
+            ><img class="mediaimg4" src="./Images/github.png" alt="My github"
+          /></i>
+        </li>
+        <li>
+          <i
+            ><img
+              class="mediaimg5"
+              src="./Images/angellist.png"
+              alt="My angellist"
+          /></i>
+        </li>
+      </ul>
+      <section class="works">
+        <button type="button" class="downbuttonbox">
+          <img
+            class="downbuttonimg"
+            src="./Images/Normal-button.png"
+            alt="Move down button"
+          />
+        </button>
+        <h2 class="workstitle" id="portfolio">
+          My Recent<br />Works<br /><span class="p2">___</span>
+        </h2>
+        <div class="cards card1">
+          <div class="cardimg cardimg1">
+            <img
+              class="cardimgs"
+              src="./Images/transparent-img.png"
+              alt="Card img-1"
+            />
+          </div>
+          <h3 class="cardtitle">Multi-Post Stories<br />Gain+Glory</h3>
+          <ul class="proglist">
+            <li class="prg1">Ruby on rails</li>
+            <li class="prg2">css</li>
+            <li class="prg3">JavScript</li>
+            <li class="prg4">html</li>
+          </ul>
+          <button type="button" class="cardbutton cardbutton1">
+            See Project
+          </button>
         </div>
-        <ul class="mediaimgs">
-            <li><i><img class="mediaimg1" src="./Images/twitter.png" alt="My twitter" /></i></li>
-            <li><i><img class="mediaimg2" src="./Images/linkedin.png" alt="My linkedin" /></i></li>
-            <li><i><img class="mediaimg3" src="./Images/medium.png" alt="My medium" /></i></li>
-            <li><i><img class="mediaimg4" src="./Images/github.png" alt="My github" /></i></li>
-            <li><i><img class="mediaimg5" src="./Images/angellist.png" alt="My angellist" /></i></li>
-        </ul>
-        <section class="works">
-            <button type="button" class="downbuttonbox"><img class="downbuttonimg" src="./Images/Normal-button.png"
-                    alt="Move down button" /></button>
-            <h2 class="workstitle">My Recent<br>Works<br><span class="p2">___</span></h2>
-            <div class="cards card1">
-                <div class="cardimg cardimg1"><img src="./Images/transparent-img.png" alt="Card img-1" /></div>
-                <h3 class="cardtitle">Multi-Post Stories<br>Gain+Glory</h3>
-                <ul class="proglist">
-                    <li class="prg1">Ruby on rails</li>
-                    <li class="prg2">css</li>
-                    <li class="prg3">JavScript</li>
-                    <li class="prg4">html</li>
-                </ul>
-                <button type="button" class="cardbutton cardbutton1">See Project</button>
-            </div>
-            <div class="cards card2">
-                <div class="cardimg cardimg2"><img src="./Images/transparent-img.png" alt="Card img-2" /></div>
-                <h2 class="cardtitle">Multi-Post Stories<br>Gain+Glory</h2>
-                <ul class="proglist">
-                    <li class="prg1">Ruby on rails</li>
-                    <li class="prg2">css</li>
-                    <li class="prg3">JavScript</li>
-                    <li class="prg4">html</li>
-                </ul>
-                <button type="button" class="cardbutton cardbutton2">See Project</button>
-            </div>
-            <div class="cards card3">
-                <div class="cardimg cardimg3"><img src="./Images/transparent-img.png" alt="Card img-3" /></div>
-                <h2 class="cardtitle">Multi-Post Stories<br>Gain+Glory</h2>
-                <ul class="proglist">
-                    <li class="prg1">Ruby on rails</li>
-                    <li class="prg2">css</li>
-                    <li class="prg3">JavScript</li>
-                    <li class="prg4">html</li>
-                </ul>
-                <button type="button" class="cardbutton cardbutton3">See Project</button>
-            </div>
-            <div class="cards card4">
-                <div class="cardimg cardimg4"><img src="./Images/transparent-img.png" alt="Card img-4" /></div>
-                <h2 class="cardtitle">Multi-Post Stories<br>Gain+Glory</h2>
-                <ul class="proglist">
-                    <li class="prg1">Ruby on rails</li>
-                    <li class="prg2">css</li>
-                    <li class="prg3">JavScript</li>
-                    <li class="prg4">html</li>
-                </ul>
-                <button type="button" class="cardbutton cardbutton4">See Project</button>
-            </div>
-            <div class="cards card5">
-                <div class="cardimg cardimg5"><img src="./Images/transparent-img.png" alt="Card img-5" /></div>
-                <h2 class="cardtitle">Multi-Post Stories<br>Gain+Glory</h2>
-                <ul class="proglist">
-                    <li class="prg1">Ruby on rails</li>
-                    <li class="prg2">css</li>
-                    <li class="prg3">JavScript</li>
-                    <li class="prg4">html</li>
-                </ul>
-                <button type="button" class="cardbutton cardbutton5">See Project</button>
-            </div>
-            <div class="cards card6">
-                <div class="cardimg cardimg6"><img src="./Images/transparent-img.png" alt="Card img-6" /></div>
-                <h2 class="cardtitle">Multi-Post Stories<br>Gain+Glory</h2>
-                <ul class="proglist">
-                    <li class="prg1">Ruby on rails</li>
-                    <li class="prg2">css</li>
-                    <li class="prg3">JavScript</li>
-                    <li class="prg4">html</li>
-                </ul>
-                <button type="button" class="cardbutton cardbutton6">See Project</button>
-            </div>
+        <div class="cards card2">
+          <div class="cardimg cardimg2">
+            <img
+              class="cardimgs"
+              src="./Images/transparent-img.png"
+              alt="Card img-2"
+            />
+          </div>
+          <h2 class="cardtitle">Multi-Post Stories<br />Gain+Glory</h2>
+          <ul class="proglist">
+            <li class="prg1">Ruby on rails</li>
+            <li class="prg2">css</li>
+            <li class="prg3">JavScript</li>
+            <li class="prg4">html</li>
+          </ul>
+          <button type="button" class="cardbutton cardbutton2">
+            See Project
+          </button>
+        </div>
+        <div class="cards card3">
+          <div class="cardimg cardimg3">
+            <img
+              class="cardimgs"
+              src="./Images/transparent-img.png"
+              alt="Card img-3"
+            />
+          </div>
+          <h2 class="cardtitle">Multi-Post Stories<br />Gain+Glory</h2>
+          <ul class="proglist">
+            <li class="prg1">Ruby on rails</li>
+            <li class="prg2">css</li>
+            <li class="prg3">JavScript</li>
+            <li class="prg4">html</li>
+          </ul>
+          <button type="button" class="cardbutton cardbutton3">
+            See Project
+          </button>
+        </div>
+        <div class="cards card4">
+          <div class="cardimg cardimg4">
+            <img
+              class="cardimgs"
+              src="./Images/transparent-img.png"
+              alt="Card img-4"
+            />
+          </div>
+          <h2 class="cardtitle">Multi-Post Stories<br />Gain+Glory</h2>
+          <ul class="proglist">
+            <li class="prg1">Ruby on rails</li>
+            <li class="prg2">css</li>
+            <li class="prg3">JavScript</li>
+            <li class="prg4">html</li>
+          </ul>
+          <button type="button" class="cardbutton cardbutton4">
+            See Project
+          </button>
+        </div>
+        <div class="cards card5">
+          <div class="cardimg cardimg5">
+            <img
+              class="cardimgs"
+              src="./Images/transparent-img.png"
+              alt="Card img-5"
+            />
+          </div>
+          <h2 class="cardtitle">Multi-Post Stories<br />Gain+Glory</h2>
+          <ul class="proglist">
+            <li class="prg1">Ruby on rails</li>
+            <li class="prg2">css</li>
+            <li class="prg3">JavScript</li>
+            <li class="prg4">html</li>
+          </ul>
+          <button type="button" class="cardbutton cardbutton5">
+            See Project
+          </button>
+        </div>
+        <div class="cards card6">
+          <div class="cardimg cardimg6">
+            <img
+              class="cardimgs"
+              src="./Images/transparent-img.png"
+              alt="Card img-6"
+            />
+          </div>
+          <h2 class="cardtitle">Multi-Post Stories<br />Gain+Glory</h2>
+          <ul class="proglist">
+            <li class="prg1">Ruby on rails</li>
+            <li class="prg2">css</li>
+            <li class="prg3">JavScript</li>
+            <li class="prg4">html</li>
+          </ul>
+          <button type="button" class="cardbutton cardbutton6">
+            See Project
+          </button>
+        </div>
+      </section>
+      <section>
+        <section id="aboutme" class="aboutme">
+          <h2 class="aboutmetitle">About me</h2>
+          <p class="aboutmep">
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded,<br />don’t hestiate to contact me.
+          </p>
+          <button type="button" class="aboutmebutton">Get My Resume</button>
         </section>
-        <section>
-            <section class="aboutme">
-                <h2 class="aboutmetitle">About me</h2>
-                <p class="aboutmep"> I can help you build a product , feature or website Look through some of my work
-                    and experience!
-                    If you like what you see and have a project you need coded,<br>don’t hestiate to contact me.</p>
-                <button type="button" class="aboutmebutton">Get My Resume</button>
-            </section>
-            <div class="aboutme-1">
-                <div class="boxaboutme boxaboutme1">
-                    <i class="iconabout"><img src="./Images/icon-languages.png" alt="" /></i>
-                    <h3 class="aboutmetitles">Languages</h3>
-                    <ul class="boxlist">
-                        <li class="lang1">JavaScript</li>
-                        <li class="lang2">Ruby</li>
-                        <li class="lang3">Html</li>
-                        <li class="lang4">CSS</li>
-                    </ul>
-                </div>
-                <div class="boxaboutme boxaboutme2">
-                    <i class="iconabout"><img src="./Images/icon-frameworks.png" alt="" /></i>
-                    <h3 class="aboutmetitles">Frameworks</h3>
-                    <ul class="boxlist">
-                        <li class="fram1">Bootstrap</li>
-                        <li class="fram2">Ruby on rails</li>
-                        <li class="fram3">RSpec</li>
-                        <li class="fram4">Capybara</li>
-                        <li class="fram5">Selenium</li>
-                    </ul>
-                </div>
-                <div class="boxaboutme boxaboutme3">
-                    <i class="iconabout"><img src="./Images/icon-skills.png" alt="" /></i>
-                    <h3 class="aboutmetitles">Skills</h3>
-                    <ul class="boxlist">
-                        <li class="skill1">Codekit</li>
-                        <li class="skill2">GitHub</li>
-                        <li class="skill3">Codepen</li>
-                        <li class="skill4">Gitlab</li>
-                        <li class="skill5">Terminal</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section class="contact-me">
-            <h2 class="contact-me-title">I'm always interested in hearing about new projects, so if you'd like to chat
-                please get in touch.</h2>
-            <form class="form" action="https://formspree.io/f/mwkanvjl" method="POST">
-                <ul class=form>
-                    <li>
-                        <label for="name"></label>
-                        <input class="placeholder" type="text" placeholder="Full name" id="name" name="user_name"
-                            maxlength="30" required>
-                    </li>
-                    <li>
-                        <label for="mail"></label>
-                        <input class="placeholder" type="email" placeholder="Email" id="mail" name="user_email"
-                            required>
-                    </li>
-                    <li>
-                        <label for="msg"></label>
-                        <textarea class="placeholder msg" id="msg" placeholder="Enter text here" name="user_message"
-                            maxlength="500" required></textarea>
-                    </li>
-                    <li>
-                        <button class="formbutton" type="submit">Get in Touch</button>
-                    </li>
-                </ul>
-            </form>
-        </section>
+        <div class="aboutme-1">
+          <div class="boxaboutme boxaboutme1">
+            <i class="iconabout"
+              ><img src="./Images/icon-languages.png" alt=""
+            /></i>
+            <h3 class="aboutmetitles">Languages</h3>
+            <ul class="boxlist">
+              <li class="lang1">JavaScript</li>
+              <li class="lang2">Ruby</li>
+              <li class="lang3">Html</li>
+              <li class="lang4">CSS</li>
+            </ul>
+          </div>
+          <div class="boxaboutme boxaboutme2">
+            <i class="iconabout"
+              ><img src="./Images/icon-frameworks.png" alt=""
+            /></i>
+            <h3 class="aboutmetitles">Frameworks</h3>
+            <ul class="boxlist">
+              <li class="fram1">Bootstrap</li>
+              <li class="fram2">Ruby on rails</li>
+              <li class="fram3">RSpec</li>
+              <li class="fram4">Capybara</li>
+              <li class="fram5">Selenium</li>
+            </ul>
+          </div>
+          <div class="boxaboutme boxaboutme3">
+            <i class="iconabout"
+              ><img src="./Images/icon-skills.png" alt=""
+            /></i>
+            <h3 class="aboutmetitles">Skills</h3>
+            <ul class="boxlist">
+              <li class="skill1">Codekit</li>
+              <li class="skill2">GitHub</li>
+              <li class="skill3">Codepen</li>
+              <li class="skill4">Gitlab</li>
+              <li class="skill5">Terminal</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="contactme" class="contact-me">
+        <h2 class="contact-me-title">
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h2>
+        <form
+          class="form"
+          action="https://formspree.io/f/mwkanvjl"
+          method="POST"
+        >
+          <ul class="form">
+            <li>
+              <label for="name"></label>
+              <input
+                class="placeholder"
+                type="text"
+                placeholder="Full name"
+                id="name"
+                name="user_name"
+                maxlength="30"
+                required
+              />
+            </li>
+            <li>
+              <label for="mail"></label>
+              <input
+                class="placeholder"
+                type="email"
+                placeholder="Email"
+                id="mail"
+                name="user_email"
+                required
+              />
+            </li>
+            <li>
+              <label for="msg"></label>
+              <textarea
+                class="placeholder msg"
+                id="msg"
+                placeholder="Enter text here"
+                name="user_message"
+                maxlength="500"
+                required
+              ></textarea>
+            </li>
+            <li>
+              <button class="formbutton" type="submit">Get in Touch</button>
+            </li>
+          </ul>
+        </form>
+      </section>
     </main>
     <footer class="footer">
-        <ul class="mediaimgs1">
-            <li><i><img class="mediaimg1" src="./Images/twitter.png" alt="twitter" /></i></li>
-            <li><i><img class="mediaimg2" src="./Images/linkedin.png" alt="linkedin" /></i></li>
-            <li><i><img class="mediaimg3" src="./Images/medium.png" alt="medium" /></i></li>
-            <li><i><img class="mediaimg4" src="./Images/github.png" alt="github" /></i></li>
-            <li><i><img class="mediaimg5" src="./Images/angellist.png" alt="angellist" /></i></li>
-        </ul>
-        <h3 class="email">juanfelipegomeztobon@gmail.com</h3>
-        <h2 class="line">_______</h2>
+      <ul class="mediaimgs1">
+        <li>
+          <i
+            ><img class="mediaimg1" src="./Images/twitter.png" alt="twitter"
+          /></i>
+        </li>
+        <li>
+          <i
+            ><img class="mediaimg2" src="./Images/linkedin.png" alt="linkedin"
+          /></i>
+        </li>
+        <li>
+          <i
+            ><img class="mediaimg3" src="./Images/medium.png" alt="medium"
+          /></i>
+        </li>
+        <li>
+          <i
+            ><img class="mediaimg4" src="./Images/github.png" alt="github"
+          /></i>
+        </li>
+        <li>
+          <i
+            ><img
+              class="mediaimg5"
+              src="./Images/angellist.png"
+              alt="angellist"
+          /></i>
+        </li>
+      </ul>
+      <h3 class="email">juanfelipegomeztobon@gmail.com</h3>
+      <h2 class="line">_______</h2>
     </footer>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
