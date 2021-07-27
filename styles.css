@@ -612,7 +612,6 @@ a {
   width: 90vw;
   overflow-y: scroll;
   overflow-x: hidden;
-
 }
 
 @media (max-width: 998px) {
