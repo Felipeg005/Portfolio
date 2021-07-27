@@ -43,12 +43,15 @@ a {
 }
 
 .nav-menu {
+  z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   width: 100%;
-  margin: 1px;
+  margin: -10px 1px 1px 1px;
   padding: 1px;
+  position: fixed;
+  background-color: white;
 }
 
 .menuitems {
@@ -582,6 +585,34 @@ a {
 .header-desktop2,
 .header-desktop3 {
   margin: 25px 15px 1px 25px;
+}
+
+.popup-container {
+  z-index: 2;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 106vh;
+  width: 100vw;
+  padding: 20px;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  z-index: 2;
+  background-color: white;
+  position: fixed;
+  top: 2%;
+  left: 5%;
+  height: 95vh;
+  width: 90vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
 }
 
 @media (max-width: 998px) {
