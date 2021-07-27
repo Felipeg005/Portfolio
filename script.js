@@ -8,8 +8,6 @@ const menuLine2 = document.querySelector('.line-2');
 const menuLine3 = document.querySelector('.line-3');
 const navMenuBottom = document.querySelector('.navmenubottom');
 
-header.addEventListener('click', clickMenu);
-
 function clickMenu() {
   header.classList.toggle('header1');
   headerelement1.classList.toggle('headerelement1-1');
@@ -21,3 +19,5 @@ function clickMenu() {
   menuLine3.classList.toggle('line-1-3');
   navMenuBottom.classList.toggle('navmenubottom1');
 }
+
+header.addEventListener('click', clickMenu);
