@@ -7,6 +7,13 @@ const menuLine1 = document.querySelector('.line-1');
 const menuLine2 = document.querySelector('.line-2');
 const menuLine3 = document.querySelector('.line-3');
 const navMenuBottom = document.querySelector('.navmenubottom');
+const closeButton = document.querySelector('.closeme-button');
+const popup = document.querySelector('.popup-container')
+const card1 = document.querySelector('.card1');
+const popup1 = new Object();
+
+let names = ['name1', 'name2', 'name3']
+let descriptions = []
 
 function clickMenu() {
   header.classList.toggle('header1');
@@ -21,3 +28,12 @@ function clickMenu() {
 }
 
 header.addEventListener('click', clickMenu);
+
+closeButton.addEventListener('click', () => {
+  popup.classList.toggle('hidden');
+})
+
+popup1 {
+  name: names[1];
+  description: desciptions[pressedButtonId];
+}
