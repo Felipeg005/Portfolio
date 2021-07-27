@@ -584,7 +584,7 @@ a {
   margin: 25px 15px 1px 25px;
 }
 
-@media (max-width: 1099px) {
+@media (max-width: 999px) {
   .header-desktop {
     display: none;
   }
@@ -595,7 +595,7 @@ a {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1000px) {
   .headerelement {
     display: none;
   }
