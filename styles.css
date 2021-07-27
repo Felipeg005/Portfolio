@@ -42,7 +42,6 @@ a {
   margin: 1px;
 }
 
-
 .nav-menu {
   display: flex;
   flex-direction: column;
@@ -54,11 +53,10 @@ a {
 
 .menuitems {
   display: none;
-  }
+}
 
 .menuitems1 {
   z-index: 1;
-  width: 100%;
   margin: 1px;
   padding: 1px;
   display: flex;
@@ -75,7 +73,7 @@ a {
 .menuitem-2,
 .menuitem-3 {
   margin-top: 20px;
-  color: #3A4a42;
+  color: #3a4a42;
   font-size: 32px;
   margin-left: 8%;
 }
