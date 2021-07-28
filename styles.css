@@ -619,6 +619,10 @@ a {
   overflow-x: hidden;
 }
 
+.popup-img {
+  margin-top: 300px;
+}
+
 @media (max-width: 998px) {
   .header-desktop {
     display: none;
