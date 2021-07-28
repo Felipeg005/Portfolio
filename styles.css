@@ -228,7 +228,8 @@ a {
   margin-top: 80px;
 }
 
-.cards {
+
+.cards-container {
   grid-column-start: 2;
   display: flex;
   flex-direction: column;
@@ -686,32 +687,32 @@ a {
     grid-column-start: 4;
   }
 
-  .card1 {
+  .card0 {
     grid-column-start: 2;
+    grid-row-start: 3;
+  }
+
+  .card1 {
+    grid-column-start: 4;
     grid-row-start: 3;
   }
 
   .card2 {
-    grid-column-start: 4;
-    grid-row-start: 3;
-  }
-
-  .card3 {
     grid-column-start: 6;
     grid-row-start: 3;
   }
 
-  .card4 {
+  .card3 {
     grid-column-start: 2;
     grid-row-start: 4;
   }
 
-  .card5 {
+  .card4 {
     grid-column-start: 4;
     grid-row-start: 4;
   }
 
-  .card6 {
+  .card5 {
     grid-column-start: 6;
     grid-row-start: 4;
   }

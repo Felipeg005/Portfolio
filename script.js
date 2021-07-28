@@ -10,9 +10,35 @@ const navMenuBottom = document.querySelector('.navmenubottom');
 const closeButton = document.querySelector('.closeme-button');
 const popup = document.querySelector('.popup-container');
 const worksSection = document.querySelector('.works');
+let htmlString = "";
+let cardElementsArray1 = ['<div class="cards card0"><div class="cardimg cardimg1"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-1"/></div>'+
+'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory</h2>'+
+'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>'+
+'<button type="button" class="cardbutton cardbutton1">See Project</button>'];
+let cardElementsArray2 = ['<div class="cards card1"><div class="cardimg cardimg2"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-2"/></div>'+
+'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory2</h2>'+
+'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>'+
+'<button type="button" class="cardbutton cardbutton2">See Project</button>'];
+let cardElementsArray3 = ['<div class="cards card2"><div class="cardimg cardimg3"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-3"/></div>'+
+'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory3</h2>'+
+'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>'+
+'<button type="button" class="cardbutton cardbutton2">See Project</button>'];
+let cardElementsArray4 = ['<div class="cards card3"><div class="cardimg cardimg4"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-4"/></div>'+
+'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory4</h2>'+
+'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>'+
+'<button type="button" class="cardbutton cardbutton2">See Project</button>'];
+let cardElementsArray5 = ['<div class="cards card4"><div class="cardimg cardimg5"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-5"/></div>'+
+'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory5</h2>'+
+'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>'+
+'<button type="button" class="cardbutton cardbutton2">See Project</button>'];
+let cardElementsArray6 = ['<div class="cards card5"><div class="cardimg cardimg6"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-6"/></div>'+
+'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory6</h2>'+
+'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>'+
+'<button type="button" class="cardbutton cardbutton2">See Project</button>'];
+let cardsArray = [cardElementsArray1, cardElementsArray2, cardElementsArray3, cardElementsArray4, cardElementsArray5,
+cardElementsArray6];
 const Popupobjt = new Object();
-let card1 = ['cards card1', 'cardimg cardimg1', './Images/transparent-img.png', '', 'cardtitle' ,'Multi-Post Stories<br/>Gain+Glory'];
-const cardContent = [card1[0], card1[1], card1[2], card1[3], card1[4], card1[5]];
+
 
 function clickMenu() {
   header.classList.toggle('header1');
@@ -27,39 +53,15 @@ function clickMenu() {
 }
 
 function pageload () {
-  let card = document.createElement("div");
-  let cardImgContainer = document.createElement("div");
-  let cardimg = document.createElement("img");
-  let cardTittle = document.createElement("h3");
-  let progList = document.createElement("ul");
-  let prog1 = document.createElement("li");
-  let prog2 = document.createElement("li");
-  let prog3 = document.createElement("li");
-  let prog4 = document.createElement("li");
   
-  
-  card.className = cardContent[0];
-  cardImgContainer.className = cardContent[1];
-  cardimg.src=(cardContent[2]);
-  cardimg.alt=(cardContent[3]);
-  cardTittle.className = cardContent[4];
-  cardTittle.innerHTML = (cardContent[5]);
-  progList.className = "proglist";
-  prog1.className = "prg1";
-  prog2.className = "prg2";
-  prog3.className = "prg3";
-  prog4.className = "prg4";
-
-  worksSection.appendChild(card);
-  card.appendChild(cardImgContainer);
-  cardImgContainer.appendChild(cardimg);
-  card.appendChild(cardTittle);
-  card.appendChild(progList);
-  progList.appendChild(prog1);
-  progList.appendChild(prog2);
-  progList.appendChild(prog3);
-  progList.appendChild(prog4);
-
+  for (let i=0; i<cardsArray.length; i++){
+    let newDiv = document.createElement("div");
+    worksSection.appendChild(newDiv);
+    newDiv.classList="cards-container"+" card"+i;
+    for (let j=0; j<cardsArray[i].length; j++) {
+      newDiv.innerHTML=cardsArray[i];
+    }
+  }
 }
 
 header.addEventListener('click', clickMenu);
