@@ -12,6 +12,9 @@ const popup = document.querySelector('.popup');
 const worksSection = document.querySelector('.works');
 const checkLowerCase = /[A-Z]/;
 const form = document.getElementById('form');
+const nameFiled = document.getElementById('name');
+const mailField = document.getElementById('mail');
+
 
 const cardElementsArray0 = [
   {
@@ -164,6 +167,7 @@ function pageload() {
       newDiv.innerHTML += cardsArray[i][j].button;
     }
   }
+  recoverEmailData();
 }
 
 function loadPopup(buttonId) {
@@ -243,8 +247,31 @@ function formLowerCaseValidate(submitForm) {
   }
 }
 
+function recoverEmailData () {
+  const formObject = JSON.parse(localStorage.getItem('formInfo'));
+
+  if(formObject) {
+
+  }
+  console.log(formObject);
+}
+
+function storageEmailData () {
+  let formInfo = {
+    name: '',
+    email: '',
+    message: ''
+  }  
+
+  localStorage.setItem('formInfo', JSON.stringify(formInfo));
+}
+
 header.addEventListener('click', clickMenu);
 document.addEventListener('DOMContentLoaded', pageload);
-form.addEventListener('submit', formLowerCaseValidate);
+form.addEventListener('submit', (...e) => {
+  formLowerCaseValidate(...e);
+  storageEmailData(...e);
+});
+
 closePopup();
 clickedButton();
