@@ -616,7 +616,6 @@ a {
   left: 5%;
   height: 180vh;
   width: 90vw;
-  overflow-y: scroll;
   text-align: center;
 }
 
@@ -859,7 +858,6 @@ a {
     width: 60%;
     left: 17%;
     top: 3%;
-    overflow-y: scroll;
     text-align: center;
   }
 
@@ -870,12 +868,12 @@ a {
   }
 
   .popup-img > img {
-    height: 700px;
-    width: 700px;
-    margin-bottom: -10%;
+    height: 400x;
+    width: 400px;
   }
 
   .popup-tittle {
+
     margin-left: 10%;
     color: #172b4d;
     text-align: left;
@@ -886,14 +884,14 @@ a {
   }
 
   .popup-description {
-    margin: 50px 10%;
+    margin: 0 10%;
     color: #344563;
     text-align: left;
   }
 
   .button-container {
     position: absolute;
-    top: 690px;
+    top: 365px;
     left: 450px;
     display: flex;
     margin: 10px;
@@ -921,7 +919,7 @@ a {
 
   .closeme-button {
     background-color: transparent;
-    margin-top: 60%;
+    margin-top: 10%;
     margin-left: 50%;
     margin-bottom: -10%;
     border: none;
