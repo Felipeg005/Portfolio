@@ -233,10 +233,10 @@ function formLowerCaseValidate(submitForm) {
     submitForm.preventDefault();
     form.removeChild(removeMessage);
   }
-  let emailInput = document.getElementById('mail').value;
-    if ((checkLowerCase.test(emailInput)) === true){
+  const emailInput = document.getElementById('mail').value;
+  if ((checkLowerCase.test(emailInput)) === true) {
     submitForm.preventDefault();
-    let errorMessage = document.createElement('p');
+    const errorMessage = document.createElement('p');
     errorMessage.classList.add('email-error');
     form.appendChild(errorMessage);
     errorMessage.innerText = 'The form was not submited, please only use lower case in email field.';
