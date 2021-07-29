@@ -151,11 +151,11 @@ function clickMenu() {
 }
 
 function pageload() {
-  for (let i = 0; i < cardsArray.length; i+=1) {
+  for (let i = 0; i < cardsArray.length; i += 1) {
     const newDiv = document.createElement('div');
     worksSection.appendChild(newDiv);
     newDiv.classList = `cards-container card${i}`;
-    for (let j = 0; j < cardsArray[i].length; j+=1) {
+    for (let j = 0; j < cardsArray[i].length; j += 1) {
       newDiv.innerHTML += cardsArray[i][j].img;
       newDiv.innerHTML += cardsArray[i][j].tittle;
       newDiv.innerHTML += cardsArray[i][j].technologies;
@@ -165,7 +165,7 @@ function pageload() {
 }
 
 function loadPopup(buttonId) {
-  for (let i = 0; i < buttonsArray.length; i+=1) {
+  for (let i = 0; i < buttonsArray.length; i += 1) {
     if (buttonId === buttonsArray[i]) {
       popupContainer.classList.toggle('hidden');
 
@@ -226,5 +226,6 @@ function closePopup() {
 }
 
 header.addEventListener('click', clickMenu);
-
 document.addEventListener('DOMContentLoaded', pageload);
+closePopup();
+clickedButton();
