@@ -868,12 +868,11 @@ a {
   }
 
   .popup-img > img {
-    height: 400x;
+    height: 250px;
     width: 400px;
   }
 
   .popup-tittle {
-
     margin-left: 10%;
     color: #172b4d;
     text-align: left;
