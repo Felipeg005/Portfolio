@@ -130,12 +130,12 @@ const cardsArray = [
 ];
 
 const buttonsArray = [
-  "cardbutton0",
-  "cardbutton1",
-  "cardbutton2",
-  "cardbutton3",
-  "cardbutton4",
-  "cardbutton5",
+  'cardbutton0',
+  'cardbutton1',
+  'cardbutton2',
+  'cardbutton3',
+  'cardbutton4',
+  'cardbutton5',
 ];
 
 function clickMenu() {
@@ -151,11 +151,11 @@ function clickMenu() {
 }
 
 function pageload() {
-  for (let i = 0; i < cardsArray.length; i++) {
-    let newDiv = document.createElement('div');
+  for (let i = 0; i < cardsArray.length; i+=1) {
+    const newDiv = document.createElement('div');
     worksSection.appendChild(newDiv);
-    newDiv.classList = 'cards-container' + ' card' + i;
-    for (let j = 0; j < cardsArray[i].length; j++) {
+    newDiv.classList = `cards-container card${i}`;
+    for (let j = 0; j < cardsArray[i].length; j+=1) {
       newDiv.innerHTML += cardsArray[i][j].img;
       newDiv.innerHTML += cardsArray[i][j].tittle;
       newDiv.innerHTML += cardsArray[i][j].technologies;
@@ -164,46 +164,41 @@ function pageload() {
   }
 }
 
-function clickedButton(buttonId) {
-  loadPopup(buttonId);
-  console.log(buttonId);
-}
-
 function loadPopup(buttonId) {
-  for (let i = 0; i < buttonsArray.length; i++) {
+  for (let i = 0; i < buttonsArray.length; i+=1) {
     if (buttonId === buttonsArray[i]) {
       popupContainer.classList.toggle('hidden');
 
-      let popupImg = document.createElement('div');
+      const popupImg = document.createElement('div');
       popupImg.classList.add('popup-img');
       popup.appendChild(popupImg);
       popupImg.innerHTML = cardsArray[i][0].popupImage;
 
-      let popupTittle = document.createElement('h2');
+      const popupTittle = document.createElement('h2');
       popupTittle.classList.add('popup-tittle');
       popup.appendChild(popupTittle);
       popupTittle.innerHTML = cardsArray[i][0].popupTittle;
 
-      let popupTechnologies = document.createElement('div');
+      const popupTechnologies = document.createElement('div');
       popupTechnologies.classList.add('popup-Technologies');
       popup.appendChild(popupTechnologies);
       popupTechnologies.innerHTML = cardsArray[i][0].technologies;
 
-      let popupDescription = document.createElement('p');
+      const popupDescription = document.createElement('p');
       popupDescription.classList.add('popup-description');
       popup.appendChild(popupDescription);
       popupDescription.innerHTML = cardsArray[i][0].description;
 
-      let popupButtonContainer = document.createElement('div');
+      const popupButtonContainer = document.createElement('div');
       popupButtonContainer.classList.add('button-container');
       popup.appendChild(popupButtonContainer);
 
-      let popupButtonLive = document.createElement('div');
+      const popupButtonLive = document.createElement('div');
       popupButtonLive.classList.add('popup-live');
       popupButtonContainer.appendChild(popupButtonLive);
       popupButtonLive.innerHTML = cardsArray[i][0].buttonLive;
 
-      let popupButtonSource = document.createElement('div');
+      const popupButtonSource = document.createElement('div');
       popupButtonSource.classList.add('popup-source');
       popupButtonContainer.appendChild(popupButtonSource);
       popupButtonSource.innerHTML = cardsArray[i][0].buttonSource;
@@ -211,18 +206,22 @@ function loadPopup(buttonId) {
   }
 }
 
+function clickedButton(buttonId) {
+  loadPopup(buttonId);
+}
+
 function closePopup() {
   popupContainer.classList.toggle('hidden');
 
-  let popupClear1 = document.querySelector('.popup-img');
+  const popupClear1 = document.querySelector('.popup-img');
   popupClear1.parentNode.removeChild(popupClear1);
-  let popupClear2 = document.querySelector('.popup-tittle');
+  const popupClear2 = document.querySelector('.popup-tittle');
   popupClear2.parentNode.removeChild(popupClear2);
-  let popupClear3 = document.querySelector('.popup-Technologies');
+  const popupClear3 = document.querySelector('.popup-Technologies');
   popupClear3.parentNode.removeChild(popupClear3);
-  let popupClear4 = document.querySelector('.popup-description');
+  const popupClear4 = document.querySelector('.popup-description');
   popupClear4.parentNode.removeChild(popupClear4);
-  let popupClear5 = document.querySelector('.button-container');
+  const popupClear5 = document.querySelector('.button-container');
   popupClear5.parentNode.removeChild(popupClear5);
 }
 
