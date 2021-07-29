@@ -10,6 +10,8 @@ const navMenuBottom = document.querySelector('.navmenubottom');
 const popupContainer = document.querySelector('.popup-container');
 const popup = document.querySelector('.popup');
 const worksSection = document.querySelector('.works');
+const checkLowerCase = /[A-Z]/;
+const form = document.getElementById('form');
 
 const cardElementsArray0 = [
   {
@@ -225,7 +227,24 @@ function closePopup() {
   popupClear5.parentNode.removeChild(popupClear5);
 }
 
+function formLowerCaseValidate(submitForm) {
+  const removeMessage = document.querySelector('.email-error');
+  if (removeMessage) {
+    submitForm.preventDefault();
+    form.removeChild(removeMessage);
+  }
+  const emailInput = document.getElementById('mail').value;
+  if ((checkLowerCase.test(emailInput)) === true) {
+    submitForm.preventDefault();
+    const errorMessage = document.createElement('p');
+    errorMessage.classList.add('email-error');
+    form.appendChild(errorMessage);
+    errorMessage.innerText = 'The form was not submited, please only use lower case in email field.';
+  }
+}
+
 header.addEventListener('click', clickMenu);
 document.addEventListener('DOMContentLoaded', pageload);
+form.addEventListener('submit', formLowerCaseValidate);
 closePopup();
 clickedButton();
