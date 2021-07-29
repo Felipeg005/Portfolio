@@ -12,7 +12,7 @@ const popupContainer = document.querySelector('.popup-container');
 const popup = document.querySelector('.popup');
 const popupimg = document.querySelector('.popup-img');
 const worksSection = document.querySelector('.works');
-const button0 = document.getElementById("cardbutton0");
+const button0 = document.getElementById('cardbutton0');
 const button1 = document.getElementById('cardbutton1');
 const button2 = document.getElementById('cardbutton2');
 const button3 = document.getElementById('cardbutton3');
@@ -21,33 +21,76 @@ const button5 = document.getElementById('cardbutton5');
 
 
 
-let cardElementsArray1 = [{img:'<div class="cards card0"><div class="cardimg cardimg1"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-1"/></div>',
-popupImage: '<img src="./Images/icon-skills.png" alt="popupimg"/>',
-tittle: '<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory</h2>',
-technologies: '<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
-button: '<button type="button" id="cardbutton0" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>'}];
-let cardElementsArray2 = [{img:'<div class="cards card1"><div class="cardimg cardimg2"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-2"/></div>',
-tittle : '<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory2</h2>',
-technologies: '<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
-button: '<button type="button" id="cardbutton1" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>'}];
-let cardElementsArray3 = [{img: '<div class="cards card2"><div class="cardimg cardimg3"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-3"/></div>',
-tittle:'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory3</h2>',
-technologies:'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
-button:'<button type="button" id="cardbutton2" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>'}];
-let cardElementsArray4 = [{img:'<div class="cards card3"><div class="cardimg cardimg4"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-4"/></div>',
-tittle:'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory4</h2>',
-technologies:'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
-button:'<button type="button" id="cardbutton3" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>'}];
-let cardElementsArray5 = [{img:'<div class="cards card4"><div class="cardimg cardimg5"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-5"/></div>',
-tittle:'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory5</h2>',
-technologies:'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
-button:'<button type="button" id="cardbutton4" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>'}];
-let cardElementsArray6 = [{img:'<div class="cards card5"><div class="cardimg cardimg6"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-6"/></div>',
-tittle:'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory6</h2>',
-technologies:'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
-button:'<button type="button" id="cardbutton5" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>'}];
-let cardsArray = [cardElementsArray1, cardElementsArray2, cardElementsArray3, cardElementsArray4, cardElementsArray5,
-cardElementsArray6];
+let cardElementsArray0 = [
+  {img:'<div class="cards card0"><div class="cardimg cardimg1"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-1"/></div>',
+  popupImage: '<img src="./Images/icon-skills.png" alt="popupimg"/>',
+  tittle: '<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory</h2>',
+  technologies: '<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
+  button: '<button type="button" id="cardbutton0" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
+  description: "<p>This is a great project I did for a company 1</p>",
+  buttonLive:'<button class="see-live-button"><p>See Live</p><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
+  buttonSource:'<button class="see-source-button"><p>See Source</p><i><img src="./Images/See-Source-Icon.svg" alt=""></i></button>'
+}];
+
+let cardElementsArray1 = [
+  {img:'<div class="cards card1"><div class="cardimg cardimg2"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-2"/></div>',
+  tittle : '<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory2</h2>',
+  popupImage: '<img src="./Images/icon-skills.png" alt="popupimg"/>',
+  technologies: '<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
+  button: '<button type="button" id="cardbutton1" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
+  description: "<p>LThis is a great project I did for a company 2</p>",
+  buttonLive:'<button class="see-live-button"><p>See Live</p><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
+  buttonSource:'<button class="see-source-button"><p>See Source</p><i><img src="./Images/See-Source-Icon.svg" alt=""></i></button>'
+}];
+
+let cardElementsArray2 = [
+  {img: '<div class="cards card2"><div class="cardimg cardimg3"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-3"/></div>',
+  tittle:'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory3</h2>',
+  popupImage: '<img src="./Images/icon-skills.png" alt="popupimg"/>',
+  technologies:'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
+  button:'<button type="button" id="cardbutton2" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
+  description: "<p>LThis is a great project I did for a company 3</p>",
+  buttonLive:'<button class="see-live-button"><p>See Live</p><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
+  buttonSource:'<button class="see-source-button"><p>See Source</p><i><img src="./Images/See-Source-Icon.svg" alt=""></i></button>'
+}];
+
+let cardElementsArray3 = [
+  {img:'<div class="cards card3"><div class="cardimg cardimg4"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-4"/></div>',
+  tittle:'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory4</h2>',
+  popupImage: '<img src="./Images/icon-skills.png" alt="popupimg"/>',
+  technologies:'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
+  button:'<button type="button" id="cardbutton3" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
+  description: "<p>LThis is a great project I did for a company 4</p>",
+  buttonLive:'<button class="see-live-button"><p>See Live</p><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
+  buttonSource:'<button class="see-source-button"><p>See Source</p><i><img src="./Images/See-Source-Icon.svg" alt=""></i></button>'
+}];
+
+let cardElementsArray4 = [
+  {img:'<div class="cards card4"><div class="cardimg cardimg5"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-5"/></div>',
+  tittle:'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory5</h2>',
+  popupImage: '<img src="./Images/icon-skills.png" alt="popupimg"/>',
+  technologies:'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
+  button:'<button type="button" id="cardbutton4" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
+  description: "<p>LThis is a great project I did for a company 5</p>",
+  buttonLive:'<button class="see-live-button"><p>See Live</p><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
+  buttonSource:'<button class="see-source-button"><p>See Source</p><i><img src="./Images/See-Source-Icon.svg" alt=""></i></button>'
+}];
+
+let cardElementsArray5 = [
+  {img:'<div class="cards card5"><div class="cardimg cardimg6"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-6"/></div>',
+  tittle:'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory6</h2>',
+  popupImage: '<img src="./Images/icon-skills.png" alt="popupimg"/>',
+  technologies:'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
+  button:'<button type="button" id="cardbutton5" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
+  description: "<p>LThis is a great project I did for a company 6</p>",
+  buttonLive:'<button class="see-live-button"><p>See Live</p><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
+  buttonSource:'<button class="see-source-button"><p>See Source</p><i><img src="./Images/See-Source-Icon.svg" alt=""></i></button>'
+}];
+
+let cardsArray = [cardElementsArray0, cardElementsArray1, cardElementsArray2, cardElementsArray3, cardElementsArray4,
+cardElementsArray5];
+
+let buttonsArray = ['cardbutton0','cardbutton1', 'cardbutton2', 'cardbutton3', 'cardbutton4', 'cardbutton5'];
 
 function clickMenu() {
   header.classList.toggle('header1');
@@ -81,53 +124,61 @@ function clickedButton (buttonId){
 }
 
 function loadPopup(buttonId){
-  if (buttonId==="cardbutton0"){
+  for (let i=0; i<buttonsArray.length; i++){
+  if (buttonId===buttonsArray[i]){
     popupContainer.classList.toggle('hidden');
 
     let popupImg= document.createElement("div");
     popupImg.classList.add('popup-img');
     popup.appendChild(popupImg);
-    popupImg.innerHTML=cardElementsArray1[0].popupImage;
+    popupImg.innerHTML=cardsArray[i][0].popupImage;
 
     let popupTittle = document.createElement("h2");
     popupTittle.classList.add('popup-tittle');
     popup.appendChild(popupTittle);
-    popupTittle.innerHTML=cardElementsArray1[0].tittle;
+    popupTittle.innerHTML=cardsArray[i][0].tittle;
     
-    let popupTechnologies = document.createElement("h2");
-    popupTechnologies.classList.add('popup-tittle');
+    let popupTechnologies = document.createElement("div");
+    popupTechnologies.classList.add('popup-Technologies');
     popup.appendChild(popupTechnologies);
-    popupTechnologies.innerHTML=cardElementsArray1[0].technologies;
+    popupTechnologies.innerHTML=cardsArray[i][0].technologies;
     
     let popupDescription = document.createElement("ul");
     popupDescription.classList.add('popup-description');
     popup.appendChild(popupDescription);
-    popupDescription.innerHTML=cardElementsArray1[0].description;
+    popupDescription.innerHTML=cardsArray[i][0].description;
     
-    let popupButtonLive = document.createElement("h2");
+    let popupButtonLive = document.createElement("div");
     popupButtonLive.classList.add('popup-live');
-    popup.appendChild(popupTittle);
-    popupTittle.innerHTML=cardElementsArray1[0].live;
+    popup.appendChild(popupButtonLive);
+    popupButtonLive.innerHTML=cardsArray[i][0].buttonLive;
     
-    let popupButtonSource = document.createElement("h2");
-    popupButtonLive.classList.add('popup-source');
-    popup.appendChild(popupTittle);
-    popupButtonLive.innerHTML=cardElementsArray1[0].source;
+    let popupButtonSource = document.createElement("div");
+    popupButtonSource.classList.add('popup-source');
+    popup.appendChild(popupButtonSource);
+    popupButtonSource.innerHTML=cardsArray[i][0].buttonSource;
   }
+}
 }
 
 function closePopup (){
   popupContainer.classList.toggle('hidden');
 
-  let popupImg = document.querySelector(".popup-img")
-  popupImg.remove();
+  let popupClear1 = document.querySelector('.popup-img');
+  popupClear1.parentNode.removeChild(popupClear1);
+  let popupClear2 = document.querySelector('.popup-tittle');
+  popupClear2.parentNode.removeChild(popupClear2);
+  let popupClear3 = document.querySelector('.popup-Technologies');
+  popupClear3.parentNode.removeChild(popupClear3);
+  let popupClear4 = document.querySelector('.popup-description');
+  popupClear4.parentNode.removeChild(popupClear4);
+  let popupClear5 = document.querySelector('.popup-live');
+  popupClear5.parentNode.removeChild(popupClear5);
+  let popupClear6 = document.querySelector('.popup-source');
+  popupClear6.parentNode.removeChild(popupClear6);
 
-  let popupTittle = document.querySelector(".popup-tittle")
-  popupTittle.remove();
 }
 
 header.addEventListener('click', clickMenu);
-
-closeButton.addEventListener('click', closePopup);
 
 document.addEventListener('DOMContentLoaded', pageload);

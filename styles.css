@@ -600,7 +600,7 @@ a {
   left: 0;
   height: 106vh;
   width: 100vw;
-  padding: 20px;
+  overflow-y: scroll;
 }
 
 .popup {
@@ -616,12 +616,10 @@ a {
   height: 95vh;
   width: 90vw;
   overflow-y: scroll;
-  overflow-x: hidden;
 }
 
-.popup-img {
-  margin-top: 300px;
-}
+
+
 
 @media (max-width: 998px) {
   .header-desktop {
