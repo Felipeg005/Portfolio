@@ -594,17 +594,19 @@ a {
 
 .popup-container {
   z-index: 2;
-  background-color: black;
+  background-color: #c1c7d0d5;
+  backdrop-filter: blur(5px);
   position: fixed;
   top: 0;
   left: 0;
   height: 106vh;
-  width: 100vw;
+  width: 106vw;
   overflow-y: scroll;
 }
 
 .popup {
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
   align-content: center;
@@ -616,10 +618,59 @@ a {
   height: 95vh;
   width: 90vw;
   overflow-y: scroll;
+  text-align: center;
 }
 
+.hidden {
+  
+}
 
+.popup-img {
+  
+}
 
+.popup-tittle {
+  
+}
+
+.popup-Technologies {
+  
+}
+
+.popup-description {
+  margin: 50px 25px;
+}
+
+.button-container{
+  display: flex;
+  margin: 10px;
+}
+
+.see-live-button,
+.see-source-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 45px;
+  padding: 0 10px 0 10px;
+  margin: 15px;
+  background: #36b37f;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  transition: box-shadow 0.5s;
+  margin-bottom: 20%;
+}
+
+.closeme-button {
+  margin-top: 60%;
+  position: relative;
+}
 
 @media (max-width: 998px) {
   .header-desktop {

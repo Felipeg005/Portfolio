@@ -23,7 +23,7 @@ const button5 = document.getElementById('cardbutton5');
 
 let cardElementsArray0 = [
   {img:'<div class="cards card0"><div class="cardimg cardimg1"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-1"/></div>',
-  popupImage: '<img src="./Images/icon-skills.png" alt="popupimg"/>',
+  popupImage: '<img src="./Images/Snapshoot-Portfolio.svg" alt="popupimg"/>',
   tittle: '<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory</h2>',
   technologies: '<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
   button: '<button type="button" id="cardbutton0" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
@@ -35,10 +35,10 @@ let cardElementsArray0 = [
 let cardElementsArray1 = [
   {img:'<div class="cards card1"><div class="cardimg cardimg2"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-2"/></div>',
   tittle : '<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory2</h2>',
-  popupImage: '<img src="./Images/icon-skills.png" alt="popupimg"/>',
+  popupImage: '<img src="./Images/Snapshoot-Portfolio.svg" alt="popupimg"/>',
   technologies: '<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
   button: '<button type="button" id="cardbutton1" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
-  description: "<p>LThis is a great project I did for a company 2</p>",
+  description: "This is a great project I did for a company 2",
   buttonLive:'<button class="see-live-button"><p>See Live</p><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
   buttonSource:'<button class="see-source-button"><p>See Source</p><i><img src="./Images/See-Source-Icon.svg" alt=""></i></button>'
 }];
@@ -46,10 +46,10 @@ let cardElementsArray1 = [
 let cardElementsArray2 = [
   {img: '<div class="cards card2"><div class="cardimg cardimg3"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-3"/></div>',
   tittle:'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory3</h2>',
-  popupImage: '<img src="./Images/icon-skills.png" alt="popupimg"/>',
+  popupImage: '<img src="./Images/Snapshoot-Portfolio.svg" alt="popupimg"/>',
   technologies:'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
   button:'<button type="button" id="cardbutton2" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
-  description: "<p>LThis is a great project I did for a company 3</p>",
+  description: "This is a great project I did for a company 3",
   buttonLive:'<button class="see-live-button"><p>See Live</p><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
   buttonSource:'<button class="see-source-button"><p>See Source</p><i><img src="./Images/See-Source-Icon.svg" alt=""></i></button>'
 }];
@@ -57,10 +57,10 @@ let cardElementsArray2 = [
 let cardElementsArray3 = [
   {img:'<div class="cards card3"><div class="cardimg cardimg4"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-4"/></div>',
   tittle:'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory4</h2>',
-  popupImage: '<img src="./Images/icon-skills.png" alt="popupimg"/>',
+  popupImage: '<img src="./Images/Snapshoot-Portfolio.svg" alt="popupimg"/>',
   technologies:'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
   button:'<button type="button" id="cardbutton3" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
-  description: "<p>LThis is a great project I did for a company 4</p>",
+  description: "This is a great project I did for a company 4",
   buttonLive:'<button class="see-live-button"><p>See Live</p><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
   buttonSource:'<button class="see-source-button"><p>See Source</p><i><img src="./Images/See-Source-Icon.svg" alt=""></i></button>'
 }];
@@ -68,10 +68,10 @@ let cardElementsArray3 = [
 let cardElementsArray4 = [
   {img:'<div class="cards card4"><div class="cardimg cardimg5"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-5"/></div>',
   tittle:'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory5</h2>',
-  popupImage: '<img src="./Images/icon-skills.png" alt="popupimg"/>',
+  popupImage: '<img src="./Images/Snapshoot-Portfolio.svg" alt="popupimg"/>',
   technologies:'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
   button:'<button type="button" id="cardbutton4" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
-  description: "<p>LThis is a great project I did for a company 5</p>",
+  description: "This is a great project I did for a company 5",
   buttonLive:'<button class="see-live-button"><p>See Live</p><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
   buttonSource:'<button class="see-source-button"><p>See Source</p><i><img src="./Images/See-Source-Icon.svg" alt=""></i></button>'
 }];
@@ -79,10 +79,10 @@ let cardElementsArray4 = [
 let cardElementsArray5 = [
   {img:'<div class="cards card5"><div class="cardimg cardimg6"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-6"/></div>',
   tittle:'<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory6</h2>',
-  popupImage: '<img src="./Images/icon-skills.png" alt="popupimg"/>',
+  popupImage: '<img src="./Images/Snapshoot-Portfolio.svg" alt="popupimg"/>',
   technologies:'<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
   button:'<button type="button" id="cardbutton5" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
-  description: "<p>LThis is a great project I did for a company 6</p>",
+  description: "This is a great project I did for a company 6",
   buttonLive:'<button class="see-live-button"><p>See Live</p><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
   buttonSource:'<button class="see-source-button"><p>See Source</p><i><img src="./Images/See-Source-Icon.svg" alt=""></i></button>'
 }];
@@ -143,19 +143,23 @@ function loadPopup(buttonId){
     popup.appendChild(popupTechnologies);
     popupTechnologies.innerHTML=cardsArray[i][0].technologies;
     
-    let popupDescription = document.createElement("ul");
+    let popupDescription = document.createElement("p");
     popupDescription.classList.add('popup-description');
     popup.appendChild(popupDescription);
     popupDescription.innerHTML=cardsArray[i][0].description;
+
+    let popupButtonContainer = document.createElement("div");
+    popupButtonContainer.classList.add('button-container');
+    popup.appendChild(popupButtonContainer);
     
     let popupButtonLive = document.createElement("div");
     popupButtonLive.classList.add('popup-live');
-    popup.appendChild(popupButtonLive);
+    popupButtonContainer.appendChild(popupButtonLive);
     popupButtonLive.innerHTML=cardsArray[i][0].buttonLive;
     
     let popupButtonSource = document.createElement("div");
     popupButtonSource.classList.add('popup-source');
-    popup.appendChild(popupButtonSource);
+    popupButtonContainer.appendChild(popupButtonSource);
     popupButtonSource.innerHTML=cardsArray[i][0].buttonSource;
   }
 }
@@ -172,10 +176,10 @@ function closePopup (){
   popupClear3.parentNode.removeChild(popupClear3);
   let popupClear4 = document.querySelector('.popup-description');
   popupClear4.parentNode.removeChild(popupClear4);
-  let popupClear5 = document.querySelector('.popup-live');
+  let popupClear5 = document.querySelector('.button-container');
   popupClear5.parentNode.removeChild(popupClear5);
-  let popupClear6 = document.querySelector('.popup-source');
-  popupClear6.parentNode.removeChild(popupClear6);
+  /*let popupClear6 = document.querySelector('.popup-source');
+  popupClear6.parentNode.removeChild(popupClear6);*/
 
 }
 
