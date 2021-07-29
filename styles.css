@@ -24,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+.hidden {
+  display: none;
+}
+
 .header {
   width: 100%;
   display: flex;
@@ -43,12 +47,15 @@ a {
 }
 
 .nav-menu {
+  z-index: 2;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   width: 100%;
-  margin: 1px;
+  margin: -10px 1px 1px 1px;
   padding: 1px;
+  position: fixed;
+  background-color: white;
 }
 
 .menuitems {
@@ -221,7 +228,7 @@ a {
   margin-top: 80px;
 }
 
-.cards {
+.cards-container {
   grid-column-start: 2;
   display: flex;
   flex-direction: column;
@@ -584,6 +591,76 @@ a {
   margin: 25px 15px 1px 25px;
 }
 
+.popup-container {
+  z-index: 2;
+  background-color: #c1c7d0d5;
+  backdrop-filter: blur(5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 106vh;
+  width: 106vw;
+  overflow-y: scroll;
+}
+
+.popup {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  z-index: 2;
+  background-color: white;
+  position: fixed;
+  top: 2%;
+  left: 5%;
+  height: 180vh;
+  width: 90vw;
+  text-align: center;
+}
+
+.popup-tittle {
+  color: #172b4d;
+}
+
+.popup-description {
+  margin: 50px 25px;
+  color: #344563;
+}
+
+.button-container {
+  display: flex;
+  margin: 10px;
+}
+
+.see-live-button,
+.see-source-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 45px;
+  padding: 0 10px 0 10px;
+  margin: 15px;
+  background: #36b37f;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  transition: box-shadow 0.5s;
+}
+
+.closeme-button {
+  background-color: transparent;
+  position: relative;
+  left: 40%;
+  bottom: 30px;
+  border: none;
+}
+
 @media (max-width: 998px) {
   .header-desktop {
     display: none;
@@ -652,32 +729,32 @@ a {
     grid-column-start: 4;
   }
 
-  .card1 {
+  .card0 {
     grid-column-start: 2;
+    grid-row-start: 3;
+  }
+
+  .card1 {
+    grid-column-start: 4;
     grid-row-start: 3;
   }
 
   .card2 {
-    grid-column-start: 4;
-    grid-row-start: 3;
-  }
-
-  .card3 {
     grid-column-start: 6;
     grid-row-start: 3;
   }
 
-  .card4 {
+  .card3 {
     grid-column-start: 2;
     grid-row-start: 4;
   }
 
-  .card5 {
+  .card4 {
     grid-column-start: 4;
     grid-row-start: 4;
   }
 
-  .card6 {
+  .card5 {
     grid-column-start: 6;
     grid-row-start: 4;
   }
@@ -755,5 +832,95 @@ a {
     grid-column-start: 2;
     grid-column-end: 4;
     margin-top: 300px;
+  }
+
+  .popup-container {
+    z-index: 2;
+    background-color: #c1c7d0d5;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 106vh;
+    width: 106vw;
+  }
+
+  .popup {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    z-index: 2;
+    background-color: white;
+    position: fixed;
+    height: 85%;
+    width: 60%;
+    left: 17%;
+    top: 3%;
+    text-align: center;
+  }
+
+  .popup-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .popup-img > img {
+    height: 250px;
+    width: 400px;
+  }
+
+  .popup-tittle {
+    margin-left: 10%;
+    color: #172b4d;
+    text-align: left;
+  }
+
+  .popup-Technologies {
+    margin-left: 9%;
+  }
+
+  .popup-description {
+    margin: 0 10%;
+    color: #344563;
+    text-align: left;
+  }
+
+  .button-container {
+    position: absolute;
+    top: 365px;
+    left: 450px;
+    display: flex;
+    margin: 10px;
+  }
+
+  .see-live-button,
+  .see-source-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 45px;
+    padding: 0 10px 0 10px;
+    margin: 15px;
+    background: #36b37f;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    transition: box-shadow 0.5s;
+  }
+
+  .closeme-button {
+    background-color: transparent;
+    margin-top: 10%;
+    margin-left: 50%;
+    margin-bottom: -10%;
+    border: none;
   }
 }
