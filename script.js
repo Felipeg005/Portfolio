@@ -228,14 +228,14 @@ function closePopup() {
 }
 
 function formLowerCaseValidate(submitForm) {
-    let emailInput = document.getElementById('mail').value;
-    if ((checkLowerCase.test(emailInput))===true){
-      submitForm.preventDefault();
-      let errorMessage = document.createElement('p');
-      form.appendChild(errorMessage);
-      errorMessage.innerText='The form was not submited, please only use lower case in email field.'
-    }
+  const emailInput = document.getElementById('mail').value;
+  if ((checkLowerCase.test(emailInput)) === true) {
+    submitForm.preventDefault();
+    const errorMessage = document.createElement('p');
+    form.appendChild(errorMessage);
+    errorMessage.innerText = 'The form was not submited, please only use lower case in email field.';
   }
+}
 
 header.addEventListener('click', clickMenu);
 document.addEventListener('DOMContentLoaded', pageload);
