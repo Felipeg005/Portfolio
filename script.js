@@ -10,6 +10,8 @@ const navMenuBottom = document.querySelector('.navmenubottom');
 const popupContainer = document.querySelector('.popup-container');
 const popup = document.querySelector('.popup');
 const worksSection = document.querySelector('.works');
+const checkLowerCase = /[[a-z][0-9]]+@+./;
+const form = document.getElementById('form');
 
 const cardElementsArray0 = [
   {
@@ -225,7 +227,18 @@ function closePopup() {
   popupClear5.parentNode.removeChild(popupClear5);
 }
 
+function formLowerCaseValidate(submitForm) {
+  submitForm.preventDefault();
+  let emailInput = document.getElementById('mail').value;
+    if (!(checkLowerCase.test(emailInput))===true){
+      alert('mal');
+    }else {
+      alert('todo bien');
+    }
+  }
+
 header.addEventListener('click', clickMenu);
 document.addEventListener('DOMContentLoaded', pageload);
+form.addEventListener('submit', formLowerCaseValidate);
 closePopup();
 clickedButton();
