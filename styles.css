@@ -610,9 +610,14 @@ a {
   position: fixed;
   top: 2%;
   left: 5%;
-  height: 180vh;
+  height: fit-content;
   width: 90vw;
   text-align: center;
+  padding: auto;
+}
+
+.popup-img {
+    margin-top: 5%;
 }
 
 .popup-tittle {
@@ -620,7 +625,7 @@ a {
 }
 
 .popup-description {
-  margin: 50px 25px;
+  margin: 25px;
   color: #344563;
 }
 
@@ -638,6 +643,7 @@ a {
   height: 45px;
   padding: 0 10px 0 10px;
   margin: 15px;
+  margin-bottom: 50px;
   background: #36b37f;
   font-family: "Inter", sans-serif;
   font-size: 15px;
@@ -650,10 +656,11 @@ a {
 }
 
 .closeme-button {
+  z-index: 2;
   background-color: transparent;
-  position: relative;
-  left: 40%;
-  bottom: 30px;
+  position: fixed;
+  top: 47px;
+  left: 77%;
   border: none;
 }
 
@@ -862,36 +869,47 @@ a {
   }
 
   .popup-img {
+    margin: 5px 1px 1px 1px;
+    position: absolute;
+    top: 15px;
     width: 100%;
     display: flex;
     justify-content: center;
   }
 
   .popup-img > img {
-    height: 250px;
-    width: 400px;
+    height: 50vh;
+    width: 50vw;
+    margin-bottom: 1px;
   }
 
   .popup-tittle {
+    position: absolute;
+    top: 56%;
     margin-left: 10%;
     color: #172b4d;
     text-align: left;
   }
 
   .popup-Technologies {
+    position: absolute;
+    top: 71%;
     margin-left: 9%;
+    margin-bottom: 10px;
   }
 
   .popup-description {
-    margin: 0 10%;
+    position: absolute;
+    top: 79%;
+    margin: 1px 10%;
     color: #344563;
     text-align: left;
   }
 
   .button-container {
     position: absolute;
-    top: 365px;
-    left: 450px;
+    top: 56%;
+    left: 42%;
     display: flex;
     margin: 10px;
   }
@@ -917,10 +935,12 @@ a {
   }
 
   .closeme-button {
+    z-index: 2;
     background-color: transparent;
-    margin-top: 10%;
-    margin-left: 50%;
-    margin-bottom: -10%;
+    position: fixed;
+    top: 10;
+    left: 70%;
     border: none;
+    margin: 1px;
   }
 }
