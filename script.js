@@ -16,7 +16,6 @@ const nameField = document.getElementById('name');
 const mailField = document.getElementById('mail');
 const messageField = document.getElementById('msg');
 
-
 const cardElementsArray0 = [
   {
     img: '<div class="cards card0"><div class="cardimg cardimg1"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-1"/></div>',
@@ -168,7 +167,6 @@ function pageload() {
       newDiv.innerHTML += cardsArray[i][j].button;
     }
   }
-  preFillFields ();
 }
 
 function loadPopup(buttonId) {
@@ -248,32 +246,34 @@ function formLowerCaseValidate(submitForm) {
   }
 }
 
-function storageEmailData () {
+function storageEmailData() {
   const nameInput = document.getElementById('name').value;
   const emailInput = document.getElementById('mail').value;
   const msgInput = document.getElementById('msg').value;
    
-  let formInfo = {
-    name: nameInput,
-    email: emailInput,
-    message: msgInput
+  const formInfo = {
+  name: nameInput,
+  email: emailInput,
+  message: msgInput,
   }  
 
-  localStorage.setItem('formInfo', JSON.stringify(formInfo));
+localStorage.setItem('formInfo', JSON.stringify(formInfo));
 }
 
-function preFillFields () {
-  let storageForm = JSON.parse(localStorage.getItem('formInfo'));
-  if(storageForm) {
-    nameField.value=storageForm.name;
-    mailField.value=storageForm.email;
-    messageField.value=storageForm.message;
+function preFillFields() {
+  const storageForm = JSON.parse(localStorage.getItem('formInfo'));
+  if (storageForm) {
+    nameField.value = storageForm.name;
+    mailField.value = storageForm.email;
+    messageField.value = storageForm.message;
   }
 }
 
-
 header.addEventListener('click', clickMenu);
-document.addEventListener('DOMContentLoaded', pageload);
+document.addEventListener('DOMContentLoaded', (...e) => {
+  pageload(...e);
+  preFillFields(...e);
+});  
 form.addEventListener('submit', (...e) => {
   formLowerCaseValidate(...e);
   storageEmailData(...e);
