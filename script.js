@@ -12,8 +12,9 @@ const popup = document.querySelector('.popup');
 const worksSection = document.querySelector('.works');
 const checkLowerCase = /[A-Z]/;
 const form = document.getElementById('form');
-const nameFiled = document.getElementById('name');
+const nameField = document.getElementById('name');
 const mailField = document.getElementById('mail');
+const messageField = document.getElementById('msg');
 
 
 const cardElementsArray0 = [
@@ -167,7 +168,7 @@ function pageload() {
       newDiv.innerHTML += cardsArray[i][j].button;
     }
   }
-  recoverEmailData();
+  preFillFields ();
 }
 
 function loadPopup(buttonId) {
@@ -247,24 +248,29 @@ function formLowerCaseValidate(submitForm) {
   }
 }
 
-function recoverEmailData () {
-  const formObject = JSON.parse(localStorage.getItem('formInfo'));
-
-  if(formObject) {
-
-  }
-  console.log(formObject);
-}
-
 function storageEmailData () {
+  const nameInput = document.getElementById('name').value;
+  const emailInput = document.getElementById('mail').value;
+  const msgInput = document.getElementById('msg').value;
+   
   let formInfo = {
-    name: '',
-    email: '',
-    message: ''
+    name: nameInput,
+    email: emailInput,
+    message: msgInput
   }  
 
   localStorage.setItem('formInfo', JSON.stringify(formInfo));
 }
+
+function preFillFields () {
+  let storageForm = JSON.parse(localStorage.getItem('formInfo'));
+  if(storageForm) {
+    nameField.value=storageForm.name;
+    mailField.value=storageForm.email;
+    messageField.value=storageForm.message;
+  }
+}
+
 
 header.addEventListener('click', clickMenu);
 document.addEventListener('DOMContentLoaded', pageload);
