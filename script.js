@@ -250,14 +250,12 @@ function storageEmailData() {
   const nameInput = document.getElementById('name').value;
   const emailInput = document.getElementById('mail').value;
   const msgInput = document.getElementById('msg').value;
-   
   const formInfo = {
-  name: nameInput,
-  email: emailInput,
-  message: msgInput,
+    name: nameInput,
+    email: emailInput,
+    message: msgInput,
   }  
-
-localStorage.setItem('formInfo', JSON.stringify(formInfo));
+  localStorage.setItem('formInfo', JSON.stringify(formInfo));
 }
 
 function preFillFields() {
@@ -273,7 +271,8 @@ header.addEventListener('click', clickMenu);
 document.addEventListener('DOMContentLoaded', (...e) => {
   pageload(...e);
   preFillFields(...e);
-});  
+});
+
 form.addEventListener('submit', (...e) => {
   formLowerCaseValidate(...e);
   storageEmailData(...e);
