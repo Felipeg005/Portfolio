@@ -254,7 +254,7 @@ function storageEmailData() {
     name: nameInput,
     email: emailInput,
     message: msgInput,
-  }  
+  };
   localStorage.setItem('formInfo', JSON.stringify(formInfo));
 }
 
