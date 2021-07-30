@@ -12,6 +12,9 @@ const popup = document.querySelector('.popup');
 const worksSection = document.querySelector('.works');
 const checkLowerCase = /[A-Z]/;
 const form = document.getElementById('form');
+const nameField = document.getElementById('name');
+const mailField = document.getElementById('mail');
+const messageField = document.getElementById('msg');
 
 const cardElementsArray0 = [
   {
@@ -208,13 +211,12 @@ function loadPopup(buttonId) {
   }
 }
 
-function clickedButton(buttonId) {
+/* eslint-disable */ function clickedButton(buttonId) {
   loadPopup(buttonId);
 }
 
-function closePopup() {
+/* eslint-disable */ function closePopup() {
   popupContainer.classList.toggle('hidden');
-
   const popupClear1 = document.querySelector('.popup-img');
   popupClear1.parentNode.removeChild(popupClear1);
   const popupClear2 = document.querySelector('.popup-tittle');
@@ -243,8 +245,35 @@ function formLowerCaseValidate(submitForm) {
   }
 }
 
+function storageEmailData() {
+  const nameInput = document.getElementById('name').value;
+  const emailInput = document.getElementById('mail').value;
+  const msgInput = document.getElementById('msg').value;
+  const formInfo = {
+    name: nameInput,
+    email: emailInput,
+    message: msgInput,
+  };
+  localStorage.setItem('formInfo', JSON.stringify(formInfo));
+}
+
+function preFillFields() {
+  const storageForm = JSON.parse(localStorage.getItem('formInfo'));
+  if (storageForm) {
+    nameField.value = storageForm.name;
+    mailField.value = storageForm.email;
+    messageField.value = storageForm.message;
+  }
+}
+
 header.addEventListener('click', clickMenu);
-document.addEventListener('DOMContentLoaded', pageload);
-form.addEventListener('submit', formLowerCaseValidate);
-closePopup();
-clickedButton();
+document.addEventListener('DOMContentLoaded', (...e) => {
+  pageload(...e);
+  preFillFields(...e);
+});
+
+form.addEventListener('submit', (...e) => {
+  formLowerCaseValidate(...e);
+});
+
+form.addEventListener('input', storageEmailData);

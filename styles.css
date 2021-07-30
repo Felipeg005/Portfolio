@@ -24,10 +24,6 @@ a {
   text-decoration: none;
 }
 
-.hidden {
-  display: none;
-}
-
 .header {
   width: 100%;
   display: flex;
@@ -659,6 +655,10 @@ a {
   left: 40%;
   bottom: 30px;
   border: none;
+}
+
+.hidden {
+  display: none;
 }
 
 @media (max-width: 998px) {
