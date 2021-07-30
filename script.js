@@ -211,13 +211,12 @@ function loadPopup(buttonId) {
   }
 }
 
-function clickedButton(buttonId) {
+/* eslint-disable */ function clickedButton(buttonId) {
   loadPopup(buttonId);
 }
 
-function closePopup() {
+/* eslint-disable */ function closePopup() {
   popupContainer.classList.toggle('hidden');
-  
   const popupClear1 = document.querySelector('.popup-img');
   popupClear1.parentNode.removeChild(popupClear1);
   const popupClear2 = document.querySelector('.popup-tittle');
