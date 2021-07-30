@@ -217,7 +217,7 @@ function clickedButton(buttonId) {
 
 function closePopup() {
   popupContainer.classList.toggle('hidden');
-
+  
   const popupClear1 = document.querySelector('.popup-img');
   popupClear1.parentNode.removeChild(popupClear1);
   const popupClear2 = document.querySelector('.popup-tittle');
@@ -275,8 +275,6 @@ document.addEventListener('DOMContentLoaded', (...e) => {
 
 form.addEventListener('submit', (...e) => {
   formLowerCaseValidate(...e);
-  storageEmailData(...e);
 });
 
-closePopup();
-clickedButton();
+form.addEventListener('input', storageEmailData);
