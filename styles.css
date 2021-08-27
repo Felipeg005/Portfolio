@@ -539,7 +539,7 @@ a {
   background: #008552;
   font-family: "Inter", sans-serif;
   font-size: 15px;
-  font-weight: bolder;
+  font-weight: lighter;
   line-height: 24px;
   border: none;
   border-radius: 4px;
@@ -621,7 +621,18 @@ a {
 }
 
 .popup-img {
-    margin-top: 5%;
+  margin: 5px 1px 1px 1px;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.popup-img > img {
+  height: 90vh;
+  width: 90vw;
+  margin-bottom: 1px;
 }
 
 .popup-tittle {
