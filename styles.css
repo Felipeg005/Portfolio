@@ -287,6 +287,7 @@ a {
   border-radius: 4px;
   color: white;
   transition: box-shadow 0.5s;
+  cursor: pointer;
 }
 
 .aboutmetitle,
@@ -309,6 +310,7 @@ a {
   border-radius: 4px;
   color: white;
   box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
+  cursor: pointer;
 }
 
 .cardbutton:active,
@@ -323,6 +325,7 @@ a {
   border: none;
   border-radius: 4px;
   color: white;
+  cursor: pointer;
 }
 
 .cardtitle {
@@ -507,12 +510,13 @@ a {
   background: #36b37f;
   font-family: "Inter", sans-serif;
   font-size: 15px;
-  font-weight: lighter;
+  font-weight: bolder;
   line-height: 24px;
   border: none;
   border-radius: 4px;
   color: white;
   transition: box-shadow 0.5s;
+  cursor: pointer;
 }
 
 .formbutton:hover {
@@ -521,7 +525,7 @@ a {
   background: #36b37f;
   font-family: "Inter", sans-serif;
   font-size: 15px;
-  font-weight: lighter;
+  font-weight: bolder;
   line-height: 24px;
   border: none;
   border-radius: 4px;
@@ -535,7 +539,7 @@ a {
   background: #008552;
   font-family: "Inter", sans-serif;
   font-size: 15px;
-  font-weight: lighter;
+  font-weight: bolder;
   line-height: 24px;
   border: none;
   border-radius: 4px;
@@ -653,6 +657,7 @@ a {
   border-radius: 4px;
   color: white;
   transition: box-shadow 0.5s;
+  cursor: pointer;
 }
 
 .closeme-button {
@@ -662,6 +667,7 @@ a {
   top: 47px;
   left: 77%;
   border: none;
+  cursor: pointer;
 }
 
 .hidden {
@@ -828,6 +834,7 @@ a {
   .formbutton:active {
     display: block;
     margin: 1px;
+    cursor: pointer;
   }
 
   .line,

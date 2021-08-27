@@ -18,20 +18,20 @@ const messageField = document.getElementById('msg');
 
 const cardElementsArray0 = [
   {
-    img: '<div class="cards card0"><div class="cardimg cardimg1"><img class="cardimgs"src="./Images/transparent-img.png"alt="Card img-1"/></div>',
-    popupTittle: 'Multi-Post Stories<br/>Gain+Glory1',
-    tittle: '<h2 class="cardtitle">Multi-Post Stories<br/>Gain+Glory</h2>',
-    popupImage: '<img src="./Images/Snapshoot-Portfolio.svg" alt="popupimg"/>',
+    img: '<div class="cards card0"><div class="cardimg cardimg1"><img class="cardimgs"src="./Images/app_screenshot1.png" alt="Card img-1"/></div>',
+    popupTittle: 'E3 Broadcast<br/>2021 Event',
+    tittle: '<h2 class="cardtitle">E3 Broadcast<br/>2021 Event</h2>',
+    popupImage: '<img src="./Images/app_screenshot2.png"/>',
     technologies:
-      '<ul class="proglist"><li class="prg1">Ruby on rails</li><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
+      '<ul class="proglist"><li class="prg2">css</li><li class="prg3">JavScript</li><li class="prg4">html</li></ul>',
     button:
       '<button type="button" id="cardbutton0" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'Website simulation of E3 annual event. beautiful design and a great layout.',
     buttonLive:
-      '<button class="see-live-button"><p>See Live</p><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
+      '<button class="see-live-button"><a href="https://felipeg005.github.io/Capstone-html-css-Javascript/">See Live</a><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
     buttonSource:
-      '<button class="see-source-button"><p>See Source</p><i><img src="./Images/See-Source-Icon.svg" alt=""></i></button>',
+      '<button class="see-source-button"><a href="https://github.com/Felipeg005/Capstone-html-css-Javascript">See Source</a><i><img src="./Images/See-Source-Icon.svg" alt=""></i></button>',
   },
 ];
 
