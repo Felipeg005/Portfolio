@@ -621,16 +621,11 @@ a {
 }
 
 .popup-img {
-  margin: 5px 1px 1px 1px;
-  position: absolute;
-  top: 15px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  margin: 5px;
 }
 
 .popup-img > img {
-  height: 50px;
+  height: 250px;
   width: 90vw;
   margin-bottom: 1px;
 }
