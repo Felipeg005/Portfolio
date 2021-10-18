@@ -9,6 +9,7 @@ body {
   height: auto;
   background-position: top;
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
 }
 
 img {
@@ -37,8 +38,8 @@ a {
 }
 
 .header1 {
-  width: 106%;
-  background-color: white;
+  /* width: 106%; */
+  /* background-color: white; */
   margin: 1px;
 }
 
