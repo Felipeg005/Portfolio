@@ -117,7 +117,7 @@ const cardElementsArray5 = [
     '<ul class="proglist"><li class="prg1">Wordpress</li><li class="prg2">css</li><li class="prg3">Elementor</li><li class="prg4">html</li></ul>',
     button:
       '<button type="button" id="cardbutton5" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
-    description: 'Beautifull website for a company that Offers Premier services partner for tourists in Medellin city',
+    description: 'Beautiful website for a company that Offers Premier services partner for tourists in Medellin city',
     buttonLive:
       '<button class="see-live-button"><a href="https://gotomedellin.co/">See Live</a><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
     buttonSource:
