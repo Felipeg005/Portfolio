@@ -112,7 +112,7 @@ const cardElementsArray5 = [
     img: '<div class="cards card5"><div class="cardimg cardimg6"><img class="cardimgs"src="./Images/projects/gotomedellin-card-screenshot.png"alt="Card img-6"/></div>',
     popupTittle: 'Go to<br/>Medellín',
     tittle: '<h2 class="cardtitle">Go to<br/>Medellín</h2>',
-    popupImage: '<img src="./Images/Snapshoot-Portfolio.svg" alt="popupimg"/>',
+    popupImage: '<img src="./Images/projects/gotomedellin-popup-screenshot.png" alt="popupimg"/>',
     technologies:
     '<ul class="proglist"><li class="prg1">Wordpress</li><li class="prg2">css</li><li class="prg3">Elementor</li><li class="prg4">html</li></ul>',
     button:
