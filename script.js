@@ -109,7 +109,7 @@ const cardElementsArray4 = [
 
 const cardElementsArray5 = [
   {
-    img: '<div class="cards card5"><div class="cardimg cardimg6"><img class="cardimgs"src="./Images/projects/"alt="Card img-6"/></div>',
+    img: '<div class="cards card5"><div class="cardimg cardimg6"><img class="cardimgs"src="./Images/projects/gotomedellin-card-screenshot.png"alt="Card img-6"/></div>',
     popupTittle: 'Go to<br/>Medellín',
     tittle: '<h2 class="cardtitle">Go to<br/>Medellín</h2>',
     popupImage: '<img src="./Images/Snapshoot-Portfolio.svg" alt="popupimg"/>',
