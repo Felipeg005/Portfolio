@@ -37,14 +37,14 @@ const cardElementsArray0 = [
 
 const cardElementsArray1 = [
   {
-    img: '<div class="cards card2"><div class="cardimg cardimg3"><img class="cardimgs"src="./Images/projects/Bookstore-card-screenshot.png"alt="Card img-3"/></div>',
+    img: '<div class="cards card2"><div class="cardimg cardimg2"><img class="cardimgs"src="./Images/projects/Bookstore-card-screenshot.png"alt="Card img-3"/></div>',
     popupTittle: 'Bookstore<br/>React & Redux',
     tittle: '<h2 class="cardtitle">Bookstore<br/>React & Redux</h2>',
     popupImage: '<img src="./Images/projects/Bookstore-popup-screenshot.png" alt="popupimg"/>',
     technologies:
       '<ul class="proglist"><li class="prg1">React & Redux</li><li class="prg2">css</li><li class="prg3">JavaScript</li><li class="prg4">JSX</li></ul>',
     button:
-      '<button type="button" id="cardbutton2" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
+      '<button type="button" id="cardbutton1" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
     description: 'Nice design and functionality Bookstore App developed with React-Redux getting and sending data for external API',
     buttonLive:
       '<button class="see-live-button"><a href="https://felipeg005.github.io/Bookstore-React-Redux/">See Live</a><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
@@ -55,14 +55,14 @@ const cardElementsArray1 = [
 
 const cardElementsArray2 = [
   {
-    img: '<div class="cards card3"><div class="cardimg cardimg4"><img class="cardimgs"src="./Images/projects/AJ-card-screenshot.png"alt="Card img-4"/></div>',
+    img: '<div class="cards card3"><div class="cardimg cardimg3"><img class="cardimgs"src="./Images/projects/AJ-card-screenshot.png"alt="Card img-4"/></div>',
     popupTittle: 'AJ<br/>Capital Funding',
     tittle: '<h2 class="cardtitle">AJ<br/>Capital Funding</h2>',
     popupImage: '<img src="https://github.com/Felipeg005/Portfolio/blob/c723f28a7f5303cc149f36d1c8d1740d14540a61/Images/Projects/AJ-popup-screenshot.png" alt="popupimg"/>',
     technologies:
       '<ul class="proglist"><li class="prg1">Wordpress</li><li class="prg2">css</li><li class="prg3">Elementor</li><li class="prg4">html</li></ul>',
     button:
-      '<button type="button" id="cardbutton3" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
+      '<button type="button" id="cardbutton2" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
     description: 'This is a great project I did for a company 4',
     buttonLive:
     '<button class="see-live-button"><a href="https://ajcapitalfunding.com/business-loans/merchant-cash-advance/">See Live</a><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
@@ -91,14 +91,14 @@ const cardElementsArray3 = [
 
 const cardElementsArray4 = [
   {
-    img: '<div class="cards card1"><div class="cardimg cardimg2"><img class="cardimgs"src="./Images/projects/Fancypawsco-screenshot.png"alt="Card img-2"/></div>',
+    img: '<div class="cards card1"><div class="cardimg cardimg5"><img class="cardimgs"src="./Images/projects/Fancypawsco-screenshot.png"alt="Card img-2"/></div>',
     popupTittle: 'Fancy Paws<br/>Pet Shop',
     tittle: '<h2 class="cardtitle">Fancy Paws<br/>Pet Shop</h2>',
     popupImage: '<img src="./Images/projects/Fancypawsco-mobile-screenshot.png" alt="popupimg"/>',
     technologies:
       '<ul class="proglist"><li class="prg1">Wordpress</li><li class="prg2">Elementor</li><li class="prg3">Woocommerce</li>',
     button:
-      '<button type="button" id="cardbutton1" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
+      '<button type="button" id="cardbutton4" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
     description: 'This is a great ecommerce I did for Fancy Paws pet shop.',
     buttonLive:
       '<button class="see-live-button"><a href="https://fancypaws.co">See Live</a><i><img src="./Images/Icon-live.svg" alt=""></i></button>',
