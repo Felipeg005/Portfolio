@@ -2,7 +2,7 @@
 
 body {
   background: no-repeat;
-  background-image: url(./Images/header-illsutration-mobile@2x.png);
+  background-image: url(./img/header-illsutration-mobile@2x.png);
   background-size: contain;
   background-color: white;
   max-width: 100%;
@@ -371,7 +371,7 @@ a {
   grid-template-columns: 5% 90% 5%;
   margin-top: 50px;
   padding-top: 80px;
-  background-image: url(./Images/Aboutme-Background.jpg);
+  background-image: url(./img/Aboutme-Background.jpg);
   background-size: cover;
   background-position-y: top;
   padding-bottom: 80px;
@@ -464,7 +464,7 @@ a {
 }
 
 .contact-me {
-  background-image: url("./Images/illustration-contact-form.png");
+  background-image: url("./img/illustration-contact-form.png");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 750px;
@@ -715,7 +715,7 @@ a {
 
   body {
     background: no-repeat;
-    background-image: url(./Images/Header-llustration-desktop@2x.png);
+    background-image: url(./img/Header-llustration-desktop@2x.png);
     background-size: contain;
     height: auto;
     background-position: top;
@@ -782,7 +782,7 @@ a {
   .aboutme {
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    background-image: url(./Images/illustration\ about\ me\ desktop\ Background.jpg);
+    background-image: url(./img/illustration\ about\ me\ desktop\ Background.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -819,7 +819,7 @@ a {
   .contact-me {
     display: grid;
     grid-template-columns: 5% 45% 45% 5%;
-    background-image: url(./Images/illustration-form-desktop-background.jpg);
+    background-image: url(./img/illustration-form-desktop-background.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
