@@ -58,7 +58,7 @@ const cardElementsArray2 = [
     img: '<div class="cards card3"><div class="cardimg cardimg4"><img class="cardimgs"src="./Images/projects/AJ-card-screenshot.png"alt="Card img-4"/></div>',
     popupTittle: 'AJ<br/>Capital Funding',
     tittle: '<h2 class="cardtitle">AJ<br/>Capital Funding</h2>',
-    popupImage: '<img src="./Images/projects/AJ-popup-screenshot.png" alt="popupimg"/>',
+    popupImage: '<img src="https://github.com/Felipeg005/Portfolio/blob/c723f28a7f5303cc149f36d1c8d1740d14540a61/Images/Projects/AJ-popup-screenshot.png" alt="popupimg"/>',
     technologies:
       '<ul class="proglist"><li class="prg1">Wordpress</li><li class="prg2">css</li><li class="prg3">Elementor</li><li class="prg4">html</li></ul>',
     button:
