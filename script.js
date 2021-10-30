@@ -18,20 +18,20 @@ const messageField = document.getElementById('msg');
 
 const cardElementsArray0 = [
   {
-    img: '<div class="cards card0"><div class="cardimg cardimg1"><img class="cardimgs"src="./img/projects/app_screenshot1.png" alt="Card img-1"/></div>',
-    popupTittle: 'E3 Broadcast<br/>2021 Event',
-    tittle: '<h2 class="cardtitle">E3 Broadcast<br/>2021 Event</h2>',
-    popupImage: '<img src="./img/projects/app_screenshot2.png"/>',
+    img: '<div class="cards card0"><div class="cardimg cardimg1"><img class="cardimgs"src="./img/projects/Covid-traking-app.png" alt="Card img-1"/></div>',
+    popupTittle: 'Covid 19<br/>Traking App',
+    tittle: '<h2 class="cardtitle">Covid 19<br/>Traking Ap</h2>',
+    popupImage: '<img src="./img/projects/Covid-traking-app-popup.png"/>',
     technologies:
-      '<ul class="proglist"><li class="prg2">css</li><li class="prg3">JavaScript</li><li class="prg4">html</li></ul>',
+      '<ul class="proglist"><li class="prg2">JavaScript</li><li class="prg3">React</li><li class="prg4">Redux</li></ul>',
     button:
       '<button type="button" id="cardbutton0" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
     description:
-      'Website simulation of E3 annual event. beautiful design and a great layout.',
+      'Very usefull App to track the Covid-19 worldwide, you can see al cases with specific details for each country.',
     buttonLive:
-      '<button class="see-live-button"><a href="https://felipeg005.github.io/Capstone-html-css-Javascript/">See Live</a><i><img src="./img/Icon-live.svg" alt=""></i></button>',
+      '<button class="see-live-button"><a href="https://felipeg005.github.io/Covid19-Tracking-App/">See Live</a><i><img src="./img/Icon-live.svg" alt=""></i></button>',
     buttonSource:
-      '<button class="see-source-button"><a href="https://github.com/Felipeg005/Capstone-html-css-Javascript">See Source</a><i><img src="./img/See-Source-Icon.svg" alt=""></i></button>',
+      '<button class="see-source-button"><a href="https://github.com/Felipeg005/Covid19-Tracking-App">See Source</a><i><img src="./img/See-Source-Icon.svg" alt=""></i></button>',
   },
 ];
 
