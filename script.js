@@ -96,7 +96,7 @@ const cardElementsArray4 = [
     tittle: '<h2 class="cardtitle">BYD<br/>Budget Manager App</h2>',
     popupImage: '<img src="./img/projects/byd-app-screenshot.png" alt="popupimg"/>',
     technologies:
-      '<ul class="proglist"><li class="prg1">Ruby</li><li class="prg2">Ruby on Rails</li><li class="prg3">Rspec</li>',
+      '<ul class="proglist"><li class="prg1">Ruby</li><li class="prg2">Ruby on Rails</li><li class="prg3">JavaScrip</li>',
     button:
       '<button type="button" id="cardbutton4" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
     description: 'Mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
