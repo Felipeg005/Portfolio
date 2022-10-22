@@ -91,19 +91,19 @@ const cardElementsArray3 = [
 
 const cardElementsArray4 = [
   {
-    img: '<div class="cards card4"><div class="cardimg cardimg5"><img class="cardimgs"src="./img/projects/Fancypawsco-screenshot.png"alt="Card img-5"/></div>',
-    popupTittle: 'Fancy Paws<br/>Pet Shop',
-    tittle: '<h2 class="cardtitle">Fancy Paws<br/>Pet Shop</h2>',
-    popupImage: '<img src="./img/projects/Fancypawsco-mobile-screenshot.png" alt="popupimg"/>',
+    img: '<div class="cards card4"><div class="cardimg cardimg5"><img class="cardimgs"src="./img/projects/byd-app-screenshot.png"alt="Card img-5"/></div>',
+    popupTittle: 'BYD<br/>Budget Manager App',
+    tittle: '<h2 class="cardtitle">BYD<br/>Budget Manager App</h2>',
+    popupImage: '<img src="./img/projects/byd-app-screenshot.png" alt="popupimg"/>',
     technologies:
-      '<ul class="proglist"><li class="prg1">Wordpress</li><li class="prg2">Elementor</li><li class="prg3">Woocommerce</li>',
+      '<ul class="proglist"><li class="prg1">Ruby</li><li class="prg2">Ruby on Rails</li><li class="prg3">Rspec</li>',
     button:
       '<button type="button" id="cardbutton4" class="cardbutton" onclick="clickedButton(this.id)">See Project</button>',
-    description: 'This is a great ecommerce I did for Fancy Paws pet shop.',
+    description: 'Mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
     buttonLive:
-      '<button class="see-live-button"><a href="https://fancypaws.co">See Live</a><i><img src="./img/Icon-live.svg" alt=""></i></button>',
+      '<button class="see-live-button"><a href="https://thawing-escarpment-03695.herokuapp.com/">See Live</a><i><img src="./img/Icon-live.svg" alt=""></i></button>',
     buttonSource:
-      '<button class="see-source-button"><a href="https://github.com/Felipeg005/">See Source</a><i><img src="./img/See-Source-Icon.svg" alt=""></i></button>',
+      '<button class="see-source-button"><a href="https://github.com/Felipeg005/BYD-App/">See Source</a><i><img src="./img/See-Source-Icon.svg" alt=""></i></button>',
   },
 ];
 
